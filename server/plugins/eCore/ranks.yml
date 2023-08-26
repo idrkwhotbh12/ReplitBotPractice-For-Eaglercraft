@@ -1,0 +1,486 @@
+Owner:
+  name: Owner
+  prefix: '&7[&4&oOwner&7] &4&o'
+  suffix: '&f'
+  default-rank: false
+  rank-color: DARK_RED
+  permissions: |-
+    [
+      {
+        "permission": "*",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 550
+  bold: false
+  italic: true
+  purchasable: false
+  coinsCost: 0
+  chat-color: RED
+  bungee: true
+  bungee-permissions:
+  - bungeecord.command.ip
+  type: DEFAULT
+  global: true
+  servers: []
+Dev:
+  name: Dev
+  prefix: '&7[&b&oDev&7] &3'
+  suffix: ''
+  default-rank: false
+  rank-color: AQUA
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "*",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 500
+  bold: false
+  italic: true
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Media-Owner:
+  name: Media-Owner
+  prefix: '&7[&4&oMediaOwner&7] &c&o'
+  suffix: ''
+  default-rank: false
+  rank-color: DARK_RED
+  permissions: '[]'
+  inheritance: []
+  weight: 499
+  bold: false
+  italic: false
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: false
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Admin:
+  name: Admin
+  prefix: '&7[&cAdmin&7] &c&o'
+  suffix: ''
+  default-rank: false
+  rank-color: RED
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "*",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 450
+  bold: false
+  italic: true
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Mod:
+  name: Mod
+  prefix: '&7[&3&oMod&7] &3&o'
+  suffix: ''
+  default-rank: false
+  rank-color: DARK_PURPLE
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 400
+  bold: false
+  italic: true
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Helper:
+  name: Helper
+  prefix: '&7[&e&oHelper&7] &e'
+  suffix: ''
+  default-rank: false
+  rank-color: LIGHT_PURPLE
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "frsot.user.fly",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 350
+  bold: false
+  italic: true
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Famous:
+  name: Famous
+  prefix: '&7[&6&oFamous&7] &7'
+  suffix: ''
+  default-rank: false
+  rank-color: GOLD
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 300
+  bold: false
+  italic: false
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DONATOR
+  global: true
+  servers: []
+Media:
+  name: Media
+  prefix: '&7[&9&oMedia&7] &9'
+  suffix: ''
+  default-rank: false
+  rank-color: BLUE
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 250
+  bold: false
+  italic: false
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+MVP:
+  name: MVP
+  prefix: '&7[&3MVP&7] &b'
+  suffix: ''
+  default-rank: false
+  rank-color: DARK_AQUA
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "fatehub.fly",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 150
+  bold: false
+  italic: false
+  purchasable: true
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+PRO:
+  name: PRO
+  prefix: '&7[&d&l⋁&7] &2'
+  suffix: ''
+  default-rank: false
+  rank-color: AQUA
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 100
+  bold: false
+  italic: false
+  purchasable: true
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+VIP:
+  name: VIP
+  prefix: '&7[&2&l⋁&7] &a'
+  suffix: ''
+  default-rank: false
+  rank-color: YELLOW
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 50
+  bold: false
+  italic: false
+  purchasable: true
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []
+Default:
+  name: Default
+  prefix: '&a'
+  suffix: ''
+  default-rank: true
+  rank-color: GREEN
+  permissions: |-
+    [
+      {
+        "permission": "eme.command.list",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.help",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.helpop",
+        "servers": [],
+        "global": true
+      },
+      {
+        "permission": "eme.command.report",
+        "servers": [],
+        "global": true
+      }
+    ]
+  inheritance: []
+  weight: 0
+  bold: false
+  italic: false
+  purchasable: false
+  coinsCost: 0
+  chat-color: WHITE
+  bungee: true
+  bungee-permissions: []
+  type: DEFAULT
+  global: true
+  servers: []

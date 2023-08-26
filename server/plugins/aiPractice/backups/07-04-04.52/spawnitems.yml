@@ -1,0 +1,70 @@
+spawn-items:
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cBot Queues §7(Right Click)
+  name: selectqueue
+  slot: 0
+  command: /botqueue
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cEdit Kit §7(Right Click)
+  name: kiteditor
+  slot: 1
+  command: /kiteditor
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: SKULL_ITEM
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §cSettings §7(Right Click)
+  name: settings
+  slot: 8
+  command: /settings
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: COMPASS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cSpectate Matches §7(Right Click)
+  name: spectator
+  slot: 2
+  command: /specgui
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cBot Queues §7(Right Click)
+      Unbreakable: true
+  name: botqueues
+  slot: 0
+  command: /botqueue
+- ==: SpawnItem
+  item:
+    ==: org.bukkit.inventory.ItemStack
+    type: INK_SACK
+    damage: 1
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cLeave Queue §7(Right Click)
+  name: leavequeue
+  slot: 8
+  command: /leavequeue
+  queue: true

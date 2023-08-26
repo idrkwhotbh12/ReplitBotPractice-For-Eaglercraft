@@ -1,0 +1,575 @@
+server-name: Tropic-BotPractice
+license-key: ''
+receive-updates-notifications: true
+chat-format:
+  enabled: true
+  format: '<prefix><nameColor><player><tag><suffix>&7: &f<message>'
+private-message-sound: ORB_PICKUP
+rank-list-format:
+  - '&4&l » &c<name>'
+  - '&c&l   ● &ePrefix: &c<prefix>'
+  - '&c&l   ● &eWeight: &c<weight>'
+  - '&r &r'
+rank-list-use-gui: true
+rank-list-item-lore:
+  - '&4&m--*---------------*--'
+  - '&c&lInfo:'
+  - '&c ● &eName: &c<name>'
+  - '&c ● &ePrefix: &c<prefix>'
+  - '&c ● &eSuffix: &c<suffix>'
+  - '&c ● &eWeight: &c<weight>'
+  - '&c ● &eColor: &c<color>Color'
+  - ''
+  - '&c&lStatus:'
+  - '&c ● &ePermissions: &c<totalPerms>'
+  - '&c ● &eInheritance: &c<inheritance>'
+  - '&4&m--*---------------*--'
+grant-item-lore:
+  - '&4&m*-------------------------------*'
+  - '&c&lInfo:'
+  - '&c ● &eTarget: &c<target>'
+  - '&c ● &eRank: &c<rank>'
+  - '&c ● &eDuration: &c<duration>'
+  - '&c ● &eExpires in: &c<expire>'
+  - ''
+  - '&c&lScopes:'
+  - '&4&l  » &e<server>'
+grant-item-lore-if-not-expired:
+  - ''
+  - '&c&lStatus:'
+  - '&c ● &eIssued By: &c<addedBy>'
+  - '&c ● &eIssued Reason: &c<reason>'
+  - ''
+  - '&cClick to revoke Grant'
+  - '&4&m*-------------------------------*'
+grant-item-lore-if-removed:
+  - ''
+  - '&c&lStatus:'
+  - '&c ● &eRemoved By: &c<removedBy>'
+  - '&c ● &eIssued By: &c<addedBy>'
+  - '&c ● &eIssued Reason: &c<reason>'
+  - '&4&m*-------------------------------*'
+grant-rank-lore:
+  - '&4&m*-------------------------*'
+  - '&c&lInfo:'
+  - '&c ● &ePriority: &c<weight>'
+  - '&c ● &ePrefix: &c<prefix>'
+  - '&c ● &eSuffix: &c<suffix>'
+  - ''
+  - '&eClick to grant &c<rank> &eto'
+  - '&ethe issued player &c<player>&e'
+  - '&4&m*-------------------------*'
+player-info-format:
+  - '&4&m*-------------------------------*'
+  - '&c&l<player>&e&l''s Information'
+  - ''
+  - '&c ● &eIP Address: &c<lastIP>'
+  - '&c ● &eRank: &c<rank>'
+  - '&c ● &eJoined: &c<firstJoined>'
+  - '&c ● &eLast seen: &c<lastSeenAgo>'
+  - '&c ● &eServer: &c<server>'
+  - '&c ● &ePermissions: &c<permissions>'
+  - '&4&m*-------------------------------*'
+player-info-gui-format:
+  - '&4&m*-----------------------------------------*'
+  - '&c&lInfo:'
+  - '&c ● &eName: &c<name>'
+  - '&c ● &eRank: &c<rank>'
+  - '&c ● &eUUID: &c<uuid>'
+  - '&c ● &eLast seen: &c<lastSeenAgo>'
+  - '&4&m*-----------------------------------------*'
+report-info-gui-format:
+  - '&4&m*-------------------------------*'
+  - '&c&lInfo:'
+  - '&c ● &eReported By: &c<reportedBy>'
+  - '&c ● &eReported Reason: &c<reason>'
+  - ''
+  - '&c&lServers:'
+  - '&c ● &e(&c<reportedBy> &e-> &c<target>&e)'
+  - '&c ● &e(&c<reporter_server> &e-> &c<target_server>&e)'
+report-info-gui-format-solved:
+  - ''
+  - '&c&lStatus:'
+  - '&c ● &eState: &aResolved &e[&a&l✔&e]'
+  - '&c ● &eResolved By: &c<solvedBy>'
+  - '&4&m*-------------------------------*'
+report-info-gui-format-unsolved:
+  - ''
+  - '&c&lStatus:'
+  - '&c ● &eState: &cUnresolved &e[&c&l✖&e]'
+  - ''
+  - '&aClick to Resolve'
+  - '&4&m*-------------------------------*'
+tag-item-lore-have-access:
+  - '&4&m--*-----------------*--'
+  - '&c&lInfo:'
+  - '&c ● &eStatus: &aAvailable'
+  - '&c ● &eTag:&c<tagFormat>'
+  - ''
+  - <isActive>
+  - '&4&m--*-----------------*--'
+tag-item-lore-have-not-access:
+  - '&4&m--*-----------------*--'
+  - '&c&lInfo:'
+  - '&c ● &eStatus: &cUnavailable'
+  - '&c ● &eTag:&c<tagFormat>'
+  - ''
+  - '&cYou don''t own this tag.'
+  - '&cPurchase @ &estore.tropic.land'
+  - '&4&m--*-----------------*--'
+ignore-list-format:
+  - '&4&m--*-----------------*--'
+  - '{names}'
+  - '&4&m--*-----------------*--'
+server-manager-server-info:
+  - '&4&m*-------------------------------*'
+  - '&c&l<name>&e&l''s Info &e&l(&c&l<online>&e&l/&c&l<max>&e&l)'
+  - ''
+  - '&c ● &eName: &c<name>'
+  - '&c ● &eTPS: &c<tps>'
+  - '&c ● &eWhitelisted: &c<whitelist>'
+  - '&c ● &eMaintenance: &c<maintenance>'
+  - '&4&m*-------------------------------*'
+server-manager-run-cmd-console-only: false
+tags-format: <color><uniqueColor> <tag>
+media:
+  website: https://tropic.land
+  store: https://store.tropic.land
+  discord: https://discord.tropic.land
+  teamspeak: N/A
+  twitter: https://twitter.com/tropic_network
+join-message:
+  enabled: true
+  message:
+    - '&7&m*------------------------------*'
+    - '&r             &c&lBot Practice'
+    - ''
+    - '&c ● &fSeason: &cI'
+    - '&c ● &fKb: &cTropic'
+    - ''
+    - '&c ● &fTo fight a realistic pvpbot, do &c/pvpbot&f.'
+    - '&c ● &fTo select a gamemode, &cright click the sword&f.'
+    - ''
+    - '&7&m*------------------------------*'
+on-join:
+  clear-chat: true
+  show-default-message: false
+  teleport:
+    enabled: false
+    location:
+      x: 0.5
+      y: 101.0
+      z: -23.5
+      yaw: 0.017150879
+      pitch: -0.7915383
+  play-sound:
+    enabled: true
+    sound: LEVEL_UP
+on-quit:
+  show-default-message: false
+worlds:
+  do-mob-spawn: false
+  do-animal-spawn: false
+  do-leaves-decay: false
+  do-weather-change: false
+  do-food-level-change: true
+  not-affected-worlds:
+    - world_example
+helpop-cooldown: 1m
+report-cooldown: 1s
+list-command:
+  format:
+    - ''
+    - '{ranks}'
+    - ''
+    - '&e(&c{online}&e/&c{max}&e) {players}'
+    - ''
+tips:
+  enabled: false
+  send-every: 60
+  announcements:
+    message-1:
+      - ' '
+      - '&eHello&7, &b<name>'
+      - '&eThis is announcement &6#1'
+      - ' '
+    message-2:
+      - ' '
+      - '&eHello&7, &b<coloredName>'
+      - '&eThis is announcement &6#2'
+      - ' '
+frozen-prefix: '&c[F] '
+freeze-allowed-commands:
+  - /msg
+  - /message
+  - /reply
+  - /r
+  - /freeze
+  - /ss
+freeze-message:
+  - '&e ▋▋▋▋▋▋▋▋'
+  - '&e ▋▋▋&4▋▋&e▋▋▋'
+  - '&e ▋▋▋&4▋▋&e▋▋▋   &4✖ &c&lYOU ARE CURRENTLY FROZEN &4✖'
+  - '&e ▋▋▋&4▋▋&e▋▋▋'
+  - '&e ▋▋▋&4▋▋&e▋▋▋  &cConnect to the Discord server now!'
+  - '&e ▋▋▋▋▋▋▋▋        &e  https://discord.tropic.land'
+  - '&e ▋▋▋&4▋▋&e▋▋▋'
+  - '&e ▋▋▋▋▋▋▋▋'
+freeze-gui:
+  title: '&cYou''ve been frozen.'
+  item:
+    name: '&4✖ &c&lYOU ARE CURRENTLY FROZEN &4✖'
+    type: COAL_BLOCK
+    lore:
+      - '&4&m--*--------------------------*--'
+      - '&c&lStatus:'
+      - '&c ● &eYou have been frozen by &cStaff&e.'
+      - '&c ● &eYou will be banned if you disconnect.'
+      - ''
+      - '&c&lPlease Do The Following:'
+      - '&c ● &eJoin our Discord @ &cdiscord.tropic.land'
+      - '&c ● &eConnect to &cScreenshare Room [1]'
+      - ''
+      - '&c&lYOU HAVE 5 MINUTES TO CONNECT!'
+      - '&4&m--*--------------------------*--'
+left-frozen-click:
+  enabled: true
+  text-hover: |-
+    &eClick to temporarily suspend &c<name>&e.
+    &r &r
+    &c&lWARNING: &cThis will temporarily ban &e<name> &cfor 30 days!
+  command: /ban <name> 30d Disconnected whilst frozen
+quick-access-prefixes:
+  admin-chat: '@'
+  staff-chat: '!'
+global-chat-disabled-prefix: ''
+panic:
+  duration: 10m
+  command-cooldown: 15m
+  remove-panic-on-quit: false
+  global-panic: false
+panic-message:
+  - '&8&m-------------------------------------'
+  - '   &7(&4&lWARNING!&7)     &7(&4&lWARNING!&7)'
+  - ''
+  - '&e&lYou''re currently in panic!'
+  - '&eWait for the staff or join our teamspeak!'
+  - '&eTeamspeak&7: &3<teamspeak>'
+  - ''
+  - '   &7(&4&lWARNING!&7)     &7(&4&lWARNING!&7)'
+  - '&8&m-------------------------------------'
+filter:
+  enabled: true
+  use-fake-message: true
+  whitelisted-links:
+    - tropic.land
+    - https://tropic.land
+    - discord.tropic.land
+    - www.tropic.land
+    - store.tropic.land
+    - https://store.tropic.land
+    - youtube.com
+    - https://youtube.com
+    - www.youtube.com
+    - https://discord.tropic.land
+    - crypto.tropic.land
+    - https://crypto.tropic.land
+    - edater.dev
+    - https://edater.dev
+  filtered-words:
+    - milf
+    - dilf
+    - kkk
+    - dtf
+    - std
+    - chlyamdia
+    - gonorrhea
+    - herpe
+    - crab diseas
+    - acab
+    - all cops are bastards
+    - hitler
+    - nazi
+    - stalin
+    - zedong
+    - gulag
+    - concentration camp
+    - gas chamber
+    - death chamber
+    - kapo
+    - mengele
+    - swastika
+    - suicide
+    - aids
+    - abortion
+    - stripper
+    - autistic
+    - midget
+    - fetish
+    - prick
+    - nigga
+    - nigger
+    - niggie
+    - chink
+    - honkey
+    - beaner
+    - kurac
+    - kys
+    - kill yourself
+    - killyourself
+    - niger
+    - faggot
+    - fag
+    - dyke
+    - incest
+    - masturbate
+    - jackoff
+    - jack off
+    - wank
+    - pedo
+    - paedo
+    - perv
+    - rape
+    - rapist
+    - whore
+    - slut
+    - thot
+    - tranny
+    - shemale
+use-nametags: true
+blacklisted-permissions:
+  - -bukkit.command.plugins
+disabled-commands:
+  - exampleCommand
+  - panic
+  - auth
+  - authreset
+  - toggletips
+  - disguiseinfo
+  - getips
+  - teamspeak
+  - punishinfo
+  - unpanic
+  - disguise
+  - cachedisguise
+  - undisguise
+  - uundisguise
+  - ddisguise
+  - ddisguiseinfo
+  - notes
+  - setjoinlocation
+  - blacklistedpermissions
+  - tps
+  - togglementions
+  - ccachedisguise
+  - vanishoptions
+tps-command-format:
+  - '&7&m------------------------------------'
+  - '&bServer Info&7:'
+  - '&7* &3Uptime&7: &b<uptime>'
+  - '&7* &3TPS&7: <tps1> <tps2> <tps3>'
+  - '&bMemory Info&7:'
+  - '&7* &3Maximum Memory&7: &b<maxMemory> &3MB'
+  - '&7* &3Allocated Memory&7: &b<allocatedMemory> &3MB'
+  - '&7* &3Free Memory&7: &b<freeMemory> &3MB'
+  - '&bWorlds Info&7:'
+  - '{worlds}'
+  - '&7&m------------------------------------'
+tps-command-world-format:
+  - '&7* &3<world> &a(&bLoaded Chunks&7: &3<loadedChunks>&7, &bEntities&7: &3<entities>&7,
+  &bLiving Entities&7: &3<livingEntities>&a)'
+name-mc:
+  enabled: false
+  server-name: tropic.land
+  on-join:
+    send-message: false
+    message:
+      - ' '
+      - '&7Looks like you haven''t voted for EstaLand!'
+      - '&7Vote here to get a free rank in-game: &chttps://namemc.com/tropic.land'
+      - ''
+    give-rank:
+      enabled: false
+      rank-name: NameMC
+    special-permissions-if-liked:
+      enabled: false
+      permissions:
+        - example-permission
+coins:
+  enabled: false
+  starting-coins: 100
+vanish-on-join:
+  enabled: false
+  permission: aqua.vanish.on.join
+staff-mode-on-join:
+  enabled: false
+  permission: aqua.staffmode.on.join
+format-name-color:
+  list: true
+  bellow-name: true
+notes:
+  message:
+    - ' '
+    - '&eViewing notes of &4<player>&7..'
+    - <notes>
+    - ' '
+  format: '&6#<id> &7- &f<message> &7(&c<addedBy>&7) &7(&c<addedAt>&7)'
+staff-tags:
+  vanish: '&e[&cV&e] &c'
+  staff-mode: '&e[&cSM&e] &c'
+global-list:
+  format:
+    - '&4&m--*---------------*--'
+    - ' &c&lNetwork: &f&l(&c&l<players>&f&l)'
+    - <servers>
+    - '&4&m--*---------------*--'
+  server-format: ' &c ● &f<server> &f(&c<online>&f/&c<max_online>&f)'
+purchasable-ranks-duration: 30d
+use-chat-mention: false
+un-freeze-player-on-leave: false
+nick:
+  show-prefix-before-nick:
+    enabled: false
+    prefix: '*'
+ip-report:
+  player-format: ' &c ● &e<player> &e(&c<alts>&e)'
+  list-format:
+    - '&4&m--*---------------*--'
+    - ' &c&lDetected Alts: &e&l(&c&l<total>&e&l)'
+    - <players>
+    - '&4&m--*---------------*--'
+tags-command-list-format: |-
+  &c&l<name>
+  &c ● &ePrefix:&c<prefix>
+  &c ● &eWeight: &c<weight>
+  &r &r
+online-staff-command-format:
+  server-format: '&c&l  ● &f<server>'
+  player-format: |-
+    &r     &4&l » &e<player>
+    &r &r
+  blacklisted-servers:
+    - TestServer
+  lines:
+    - '&4&m--*-------------------------*--'
+    - '&c&l Network Staff:'
+    - '{format}'
+    - '&4&m--*-------------------------*--'
+alts-command-format:
+  alt-format: ' &c ● <alt>'
+  lines:
+    - '&4&m--*-------------------------*--'
+    - '&c&l<name>'
+    - ''
+    - ' &c&lStatuses:'
+    - ' &c ● &aOnline'
+    - ' &c ● &cOffline'
+    - ' &c ● &4Banned'
+    - ''
+    - '&c&l Alts:'
+    - '{alts}'
+    - '&4&m--*-------------------------*--'
+login:
+  announce-tried-to-join-banned: true
+  announce-tried-to-join-blacklisted: true
+teleport-commands-send-teleported-message-to-target: false
+use-global-messaging: true
+punishment-join:
+  allow-banned: false
+  allow-blacklisted: false
+announce-ban-evading-to-staff: true
+staff-authentication:
+  enabled: false
+  permission: aqua.staff.auth
+  time-between-next-auth: 5h
+  google-auth-name: StaffSecurity
+  setup-auth-message:
+    - ''
+    - '&ePlease type &b/2fa &eto setup your &6&l2FA&e.'
+    - '&eYou will receive map with QR Code that needs'
+    - '&eto be scanned!'
+    - ''
+    - '&eUse app like &bAuthy &eto scan QR Code and get code!'
+    - ''
+  enter-auth-message:
+    - ''
+    - '&ePlease type &b/2fa <code> &eto confirm your &6&l2FA&e.'
+    - '&eGet code from your app that you used to setup &6&L2FA&e!'
+    - '&eto be scanned!'
+    - ''
+  next-auth-note:
+    - ''
+    - ' &7(( &eYour next &6&l2FA &eauthentication &7))'
+    - '&eTime&7: &b<time>'
+    - ''
+auto-silent-punishments:
+  enabled: true
+  punishments:
+    - None
+auto-silent-un-punishments:
+  enabled: true
+  punishments:
+    - None
+disable-wipe-option: false
+disguise-info:
+  format: ' &7[*] &b<name> &7- &7disguised as &3<disguised> &7(&d<rank>&7)'
+  not-found: '&cThere are no players online that are currently disguised!'
+  list:
+    - ' '
+    - '&eShowing you currently disguised players&7: '
+    - ' '
+    - '{list}'
+    - ' '
+settings:
+  allow-player-world-time-change: true
+server-monitor: true
+punishments-default-reasons:
+  ban: No reason specified
+  mute: No reason specified
+  blacklist: No reason specified
+  kick: No reason specified
+  warn: No reason specified
+  un-ban: No reason specified
+  un-mute: No reaspon specified
+  un-blacklist: No reason specified
+help-pages:
+  page-1:
+    messages:
+      - '&4&m*------------------------------------------*'
+      - '&4&l Bot Practice &e&l┃ &4&lHelp'
+      - '&4&m*------------------------------------------*'
+      - ' '
+      - '&cMain Commands:'
+      - '&e/botqueue &7- Opens Bot Queue Menu'
+      - '&e/spectate <player> &7- To spectate a match'
+      - '&e/follow <player> &7- To follow a player'
+      - '&e/unfollow <player> &7- To unfollow a player'
+      - '&e/party help &7- Information on how to use party commands'
+      - ''
+      - '&cOther Commands:'
+      - '&e/report <player> <reason> &7- To report a player for violating rules'
+      - '&e/request <reason> &7- To request Staff assistance'
+      - ''
+      - '&4&m*------------------------------------------*'
+clickable-helpop:
+  enabled: true
+  hover: |-
+    &eClick to join &c<target>&e!
+    &r &r
+    &c&lWARNING: &cThis will switch to another server!
+  command: /jumpto <target>
+clickable-report:
+  enabled: true
+  hover: |-
+    &eClick to join &c<target>&e!
+    &r &r
+    &c&lWARNING: &cThis will switch to another server!
+  command: /jumpto <target>
+reboot:
+  command: restart
+staff-logs:
+  log-freeze-global: true
+punishment-kick-date-pattern: EEE, MMM d, yy
+default-date-pattern: dd/MM/yyyy hh:mm:ss a
+proxy_server:
+  type: BUNGEE

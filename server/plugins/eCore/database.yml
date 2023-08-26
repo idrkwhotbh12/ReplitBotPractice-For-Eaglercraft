@@ -1,0 +1,19 @@
+MONGODB:
+  # If you wish to use mongo client URI instead, enable this option
+  USE_MONGO_CLIENT_URI:
+    ENABLED: false
+    URI: ""
+  # If your host supports TLS/SSL enable this option
+  SSL-ENABLED: false
+  ADDRESS: "n2-c2-mongodb-clevercloud-customers.services.clever-cloud.com"
+  PORT: 27017
+  DATABASE: "bg2z7tahtcoxaf6"
+  AUTHENTICATION:
+    ENABLED: true
+    DATABASE: "bg2z7tahtcoxaf6"
+    USERNAME: "uvlleajerkmnhghdtwde"
+    PASSWORD: "4qbUHAGkQigZXBNR4DB7"
+REDIS:
+  HOST: "redis-14327.c300.eu-central-1-1.ec2.cloud.redislabs.com"
+  PORT: 14327
+  PASSWORD: "eHbC7HcgFpv0Y1QLj4OyaVSApXrfelZc"

@@ -1,0 +1,20 @@
+{
+  "kills": {
+    "vtsb": 0.0
+  },
+  "lms": {
+    "vtsb": 0.0
+  },
+  "global_elo": {
+    "vtsb": 1000.0
+  },
+  "deaths": {
+    "vtsb": 0.0
+  },
+  "party_vs_party_wins": {
+    "vtsb": 0.0
+  },
+  "brackets": {
+    "vtsb": 0.0
+  }
+}

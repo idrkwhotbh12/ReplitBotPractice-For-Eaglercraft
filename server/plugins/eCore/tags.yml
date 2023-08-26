@@ -1,0 +1,315 @@
+Techno:
+  name: Techno
+  prefix: '&d&lTechno'
+  weight: 51
+  color: RED
+Verified:
+  name: Verified
+  prefix: '&2&l✔'
+  weight: 50
+  color: RED
+Heart:
+  name: Heart
+  prefix: '&4&l❤'
+  weight: 49
+  color: RED
+Star:
+  name: Star
+  prefix: '&c&l✰'
+  weight: 47
+  color: RED
+Radioactive:
+  name: Radioactive
+  prefix: '&c&l☢'
+  weight: 47
+  color: RED
+Moon:
+  name: Moon
+  prefix: '&c&l☾'
+  weight: 46
+  color: WHITE
+Swords:
+  name: Swords
+  prefix: '&c&l⚔'
+  weight: 45
+  color: RED
+MusicNote:
+  name: MusicNote
+  prefix: '&d&l♫'
+  weight: 44
+  color: RED
+Snowman:
+  name: Snowman
+  prefix: '&f&l☃'
+  weight: 43
+  color: RED
+Snowflake:
+  name: Snowflake
+  prefix: '&b&l❆'
+  weight: 42
+  color: RED
+Tools:
+  name: Tools
+  prefix: '&3&l⚒'
+  weight: 41
+  color: RED
+Warning:
+  name: Warning
+  prefix: '&c&l⚠'
+  weight: 40
+  color: RED
+YinYang:
+  name: YinYang
+  prefix: '&f&l☯'
+  weight: 39
+  color: RED
+HighVoltage:
+  name: HighVoltage
+  prefix: '&e&l⚡'
+  weight: 38
+  color: RED
+Coffee:
+  name: Coffee
+  prefix: '&4&l☕'
+  weight: 37
+  color: RED
+Flower:
+  name: Flower
+  prefix: '&5&l⚘'
+  weight: 36
+  color: RED
+Plane:
+  name: Plane
+  prefix: '&7&l✈'
+  weight: 35
+  color: RED
+Denied:
+  name: Denied
+  prefix: '&c&l✖'
+  weight: 34
+  color: RED
+Rich:
+  name: Rich
+  prefix: '&2&l$&a&l$&2&l$'
+  weight: 33
+  color: RED
+L:
+  name: L
+  prefix: '&4&n&oL&8'
+  weight: 32
+  color: RED
+Weed:
+  name: Weed
+  prefix: '&2&l☘'
+  weight: 31
+  color: RED
+First:
+  name: First
+  prefix: '&1&l#1'
+  weight: 30
+  color: RED
+69:
+  name: 69
+  prefix: '&d&l6&c&l9'
+  weight: 29
+  color: RED
+GG:
+  name: GG
+  prefix: '&3&lG&b&lG'
+  weight: 28
+  color: RED
+EZ:
+  name: EZ
+  prefix: '&c&lE&c&lZ&8'
+  weight: 27
+  color: RED
+Daddy:
+  name: Daddy
+  prefix: '&3Da&9dd&by'
+  weight: 26
+  color: RED
+Vape:
+  name: Vape
+  prefix: '&b&nVape'
+  weight: 25
+  color: RED
+Abuse:
+  name: Abuse
+  prefix: '&d&oA&dbuse'
+  weight: 24
+  color: RED
+Rage:
+  name: Rage
+  prefix: '&4&lR&4age&8&l'
+  weight: 23
+  color: RED
+Fake:
+  name: Fake
+  prefix: '&c&lF&ca&lk&ce&7'
+  weight: 22
+  color: RED
+Sexy:
+  name: Sexy
+  prefix: '&d&lS&ce&dx&cy'
+  weight: 21
+  color: RED
+AFK:
+  name: AFK
+  prefix: '&7&lA&c&lF&7&lK'
+  weight: 20
+  color: RED
+Rekt:
+  name: Rekt
+  prefix: '&cR&fe&ck&ft'
+  weight: 19
+  color: RED
+Toxic:
+  name: Toxic
+  prefix: '&c&k|&4&lTOXIC&c&k|'
+  weight: 18
+  color: RED
+Savage:
+  name: Savage
+  prefix: '&5&k|&8[&c&lSAVAGE&8]&5&k|'
+  weight: 17
+  color: RED
+IQ200:
+  name: IQ200
+  prefix: '&9&lIQ&9&n200'
+  weight: 16
+  color: RED
+Scam:
+  name: Scam
+  prefix: '&5&lS&dcam'
+  weight: 15
+  color: RED
+Hacker:
+  name: Hacker
+  prefix: '&7&k=&3Ha&bck&3er&7&k='
+  weight: 14
+  color: RED
+BestEU:
+  name: BestEU
+  prefix: '&aBest&lEU'
+  weight: 13
+  color: RED
+Quicked:
+  name: Quicked
+  prefix: '&f&nQuicked'
+  weight: 12
+  color: RED
+Salty:
+  name: Salty
+  prefix: '&7&k|&8[&cSalty&8]&7&k|&r'
+  weight: 11
+  color: RED
+Bat:
+  name: Bat
+  prefix: '&7&k&l|&8[&7 ^ ö ^ &8]&7&k&l|'
+  weight: 10
+  color: RED
+Halloween:
+  name: Halloween
+  prefix: '&8<&d&k|&c &lHal&4&llow&c&leen &d&k|&8>'
+  weight: 9
+  color: RED
+DDoS:
+  name: DDoS
+  prefix: '&7&k&l|&8[&2DDoS&8]&7&k&l|'
+  weight: 8
+  color: RED
+Epic:
+  name: Epic
+  prefix: '&8&m&k*&8[&c&lEpic&8]&m&k*'
+  weight: 7
+  color: RED
+Covid-19:
+  name: Covid-19
+  prefix: '&7&m&k*&8[&2C&aO&2V&aI&2D&a-&21&a9&8]&m&k*'
+  weight: 6
+  color: RED
+Lucky Block:
+  name: LuckyBlock
+  prefix: '&c&l[&k|&c&l?&c&l&k|&c&l]'
+  weight: 5
+  color: RED
+E-Girl:
+  name: E-Girl
+  prefix: '&8&m&k*&8[&5&k|&d&lE-Girl&5&k|&8]&m&k*'
+  weight: 4
+  color: RED
+Flex:
+  name: Flex
+  prefix: '&8&k<&8[&b&lF&3L&b3&3&lX&8]&k>'
+  weight: 3
+  color: RED
+Banned:
+  name: Banned
+  prefix: '&8&l< &4&l&o#BANNED &8&l>'
+  weight: 2
+  color: RED
+God:
+  name: God
+  prefix: '&8&m&k||&8&l[&c&lGOD&8&l]&8&m&k||&r'
+  weight: 1
+  color: RED
+Vibes:
+  name: Vibes
+  prefix: '&7&m&k|&8[&f&l#&a&lV&b&lI&e&lB&c&lE&d&lS&8]&7&m&k|&r'
+  weight: 1
+  color: RED
+Eyes:
+  name: Eyes
+  prefix: '&8&l«&3 ◕&7‿&3◕ &8&l»&r'
+  weight: 1
+  color: RED
+Gucci:
+  name: Gucci
+  prefix: '&8{&2&lG&4&lU&2&lC&4&lC&2&lI&8}&r'
+  weight: 1
+  color: RED
+Diamond:
+  name: Diamond
+  prefix: '&3&l⧼&b&l❖&3&l⧽&r'
+  weight: 1
+  color: RED
+Bear:
+  name: Bear
+  prefix: '&8&k|&7┃ &fʕ•ᴥ•ʔ &7┃&8&k|&r'
+  weight: 1
+  color: RED
+Dope:
+  name: Dope
+  prefix: '&8&k|&7┃&8&k|&6 &lD&e&l0&c&lP&4&lE&8 &k|&7┃&8&k|&r'
+  weight: 1
+  color: RED
+AmongUs:
+  name: AmongUs
+  prefix: '&c&lඞ'
+  weight: 1
+  color: RED
+Sus:
+  name: Sus
+  prefix: '&7[&4&k|&r &c&l&nSUS&r &4&k|&7]'
+  weight: 1
+  color: RED
+BlackHeart:
+  name: BlackHeart
+  prefix: '&0❤'
+  weight: 1
+  color: RED
+Beaner:
+  name: Beaner
+  prefix: '&6Beaner'
+  weight: 1
+  color: RED
+Cookie:
+  name: Cookie
+  prefix: '&5&lCOOKIE'
+  weight: 1
+  color: RED
+Mommy:
+  name: Mommy
+  prefix: '&dMo&5mm&dy'
+  weight: 1
+  color: RED

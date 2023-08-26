@@ -1,0 +1,130 @@
+username: vtsb
+language: english
+scoreboard-disabled: false
+duel-requests-disabled: false
+hide-other-players: false
+stats:
+  brackets: 0
+  kills: 0
+  deaths: 0
+  lms: 0
+  party_vs_party_wins: 0
+  global_elo: 1000
+  sumo_wins: 0
+  juggernaut: 0
+limits-updated: 1674003892759
+rankeds-left: 0
+unrankeds-left: 0
+premium-matches: 0
+cooldowns: []
+custom-kit:
+  ==: BattleKit
+  types: ANY
+  pearl-cooldown: 0
+  best-of: 1
+  no-bestof-rollback: false
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §9Custom Kit
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  no-damage: false
+  inventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  - ==: org.bukkit.inventory.ItemStack
+    type: AIR
+  no-death-countdown: false
+  chestplate:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_CHESTPLATE
+  helmet:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_HELMET
+  name: §9Custom Kit
+  boots:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_BOOTS
+  boxing: false
+  block-disappear: 0
+  leggings:
+    ==: org.bukkit.inventory.ItemStack
+    type: LEATHER_LEGGINGS
+kits: []

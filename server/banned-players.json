@@ -1,0 +1,34 @@
+[
+  {
+    "uuid": "5c165932-103e-3b4d-865b-1fb3561a5abe",
+    "name": "PVPTHEBEST",
+    "created": "2023-06-07 16:09:49 +0000",
+    "source": "Whimsy",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "5c165932-103e-3b4d-865b-1fb3561a5abe",
+    "name": "PVPTHEBEST",
+    "created": "2023-06-08 11:38:15 +0000",
+    "source": "Whimsy",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "cc5fb6b1-f1e2-3181-aca0-735b7848ee31",
+    "name": "broo",
+    "created": "2023-06-07 13:06:58 +0000",
+    "source": "Whimsy",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  },
+  {
+    "uuid": "6c6e7ec9-de76-34d1-b2b1-0b9bc982a4e6",
+    "name": "broo_watch",
+    "created": "2023-06-07 10:59:55 +0000",
+    "source": "Whimsy",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]

@@ -1,0 +1,281 @@
+english:
+  yes-or-true: '&aYes'
+  no-or-false: '&cNo'
+  cooldown-message: "&cEnderpearl Cooldown&f: &e<time> seconds"
+  do-not-spam-things: '&cPlease wait before doing this again...'
+  not-pvp-fight: '&cYou are unable to hit this player.'
+  party-created: '&c&lParty &7&l» &fYou have created a new party.'
+  can-not-duel-that-party: '&cYou are unable to duel that party.'
+  playback-can-not-start: '&cAn error has occured, please try this again later.'
+  in-party: '&cYou are currently in a party.'
+  data-not-loaded: '&cLoading data... Please wait a moment.'
+  ranked-range: '&eSearching players in elo range &7(&f<range1>&e-&f<range2>&7)'
+  ranked-anyone: '&eSearching players in any elo range.'
+  invalid-kit: '&cError: This kit doesn''t exist.'
+  not-own-party: '&cYou are not the owner of this party.'
+  party-size: '&cYour party requires <number> more player to play this.'
+  stay-away-from-other-players: '&cStay away from players whilst spectating them.'
+  public-party-no-permission: '&cYou do not have permission to execute this command.'
+  no-party-limit-bypass: '&cYou do not have permission to execute this command.'
+  party-full: '&cThe party you attempted to join is full.'
+  public-party-on: '&aYou are hosting a public party.'
+  public-party-off: '&cYou are no longer hosting a public party.'
+  public-party-broadcast: |-
+    &r &r
+    &c&l<player> &fis hosting a party &a(Join)
+    &r &r
+  want-to-invite: '&c<player> &fhas invited you to their party! &a[Click to Accept]'
+  sent-invite: '&c&lParty &7&l» &c<player> &fhas been invited to the party!'
+  stats-message: '&c<player>&f''s stats'
+  #set to 'false' to disable
+  started-spectating: '&c<player> &fis now spectating your match.'
+  stopped-spectating: '&c<player> &fis no longer spectating your match.'
+  #<player>, <hearts>, <hp>
+  bow-health-message: '&c<player> &fis now at &c<hearts>❤&f.'
+  invalid-inventory: '&cThe inventory was not found or may have expired.'
+  no-enough-money: '&cYou do not have enough money.'
+  leave-spectator-mode: '&cYou are unable to do this right now.'
+  party-joined: '&c&lParty &7&l» &c<player>&f has joined the party.'
+  inventory-message: |-
+    &r &r
+    &c&l  Match Results &f- &7(click player to view):
+    &r &r
+  event-stopped: '&cThe event has ended.'
+  juggernaut-not-open: '&cThe juggernaut event is not open now.'
+  juggernaut-already-started: '&cThe event has already started.'
+  juggernaut-not-started: '&cThe event has not started yet.'
+  juggernaut-eliminated: '&c&lThe juggernaut was eliminated by &f<killer>&c&l.'
+  juggernaut-eliminated-logging-out: '&c&lThe juggernaut was eliminated for logging out.'
+  juggernaut-join-back: '&fJoin the juggernaut event again with &c/juggernaut join&f.'
+  player-is-juggernaut: '&c&lPlayer &f<player>&c&l is the juggernaut.'
+  party-chat-join: '&aYou are now talking in party chat.'
+  party-chat-leave: '&cYou are no longer talking in party chat.'
+  no-permission: '&cYou do not have permission to execute this command.'
+  does-not-have-party: '&cError: This player is not in a party.'
+  party-wants-duel: |-
+    &r 
+    &c<player>&f has sent a &c<kit>&f party vs party request.
+    &fType &c/party duel <player>&f.
+    &r
+  party-wants-duel-with-custom-kit: |-
+    &r 
+    &c<player>&f has sent a &c&lCustom Kit&f party vs party request.
+    &fType &c/party duel <player>&f.
+    &r
+  not-online: '&cError: This player isn''t online.'
+  has-not-played: '&cError: This player doesn''t exist in our database.'
+  not-enough-players: '&cYour party must have at least 2 players to do this.'
+  can-not-do-while-in-match: '&cYou are unable to do this whilst in a match.'
+  can-not-do-while-in-party-other-player: '&cThis player is in a party, so you are unable to do this.'
+  can-not-do-while-in-party: '&cYou are unable to do this whilst in a party.'
+  has-not-invited: '&cYou don''t have an invite from that player.'
+  party-has-not-dueled: '&cThat party has not requested your party or the request has expired.'
+  showing-stats: '&fShowing &c<player>&f''s stats.'
+  not-in-your-party: '&cError: This player is not in your party.'
+  was-kicked: '&c&lParty &7&l» &c<player>&f was kicked from the party.'
+  left-party: '&c&lParty &7&l» &c<player>&f has left the party.'
+  alread-invited: '&cError: This player was already invited.'
+  disband-to-leave: '&cYou are unable to leave this party, transfer or disband the party.'
+  party-was-deleted: '&c&lParty &7&l» &fThe party has been disbanded.'
+  can-not-do-party-commands: '&cYou are unable to do this right now.'
+  can-not-do-command: '&cYou are unable to do this right now.'
+  no-arenas-found: '&cI''m sorry, but our servers were unable to create any new templates for this arena, please try again.'
+  lag-broadcast: '&cThe server is having an arena restart session, prepare for lag.'
+  request-sent: '&cAn error has occurred while trying to duel someone.'
+  # <player> is the sender, <target> is the player that was dueled (i.e., /duel <target>)
+  wants-duel: |-
+    &r 
+    &c<player>&f has sent a &c<kit> &fduel request.
+    &fType &c/duel accept <player>&f.
+    &r
+  bestof-duel-request: '&fThis match has &c<rounds> rounds&f.'
+  wants-duel-with-custom-kit: |-
+    &r 
+    &c<player>&f has sent a &cCustom Kit &fduel request.
+    &fType &c/duel accept <player>&f.
+    &r
+  you-can-not-duel-now: '&cYou are unable to do this right now.'
+  waiting-for-duel: '&r \n&c&l%strikepractice_queuetype% %strikepractice_kit% \n&c ● &fPing Range: &c[Unrestricted]\n&7&o   Searching for match ... \n &r'
+  best-of-round: |-
+    &r 
+    &c&lRound <round>
+    &9<player1_wins> &f- &c<player2_wins>
+    &r
+  queue-ping-limit: '&cYou''re not allowed to play ranked due to your incredibly high ping. &a(250 < <ping>)'
+  no-rankeds-left: '&cYou don''t have any ranked matches left for today.'
+  no-unrankeds-left: '&cYou don''t have any unranked matches left for today.'
+  no-premium-matches-left: |-
+    &f 
+    &cYou don't have any &fPremium Games&c.
+    &cPurchase some &f@ &cComing Soon...
+    &f
+  ranked-kills-required: |-
+    &f 
+    &cYou need to win &f<required> Unranked Matches &cto queue ranked. 
+    &f
+  has-not-dueled: '&cThis player hasn''t dueled you, or it has expired.'
+  left-queue: '&fYou were &cremoved &ffrom the queue.'
+  type-name: '&cPlease type a name here.'
+  kit-saved: '&aYour kit has been saved.'
+  kit-reset: '&cYour kit has been reset.'
+  party-promoted: '&c&lParty &7&l» &c<player>&f was &cpromoted &fin your party.'
+  your-team-won: ''
+  your-team-won-disband: ''
+  your-team-did-not-win: ''
+  in-fight: '&cError: Your team is still in a match.'
+  not-in-fight: '&cThe player must be in a match.'
+  #This message is sent when the fight has 20% of max duration left
+  #for example if the limit is 20 minutes this message is sent every minute for (20*0.2 = 4) 4 minutes before the match ends
+  fight-duration-limit: |-
+    &r &r
+    &4&lWARNING:
+    &c  The fight is ending in &e<left> &cminutes.
+    &r &r
+  #sent if the fight exceeds the fight-duration-limit
+  fight-duration-force-end: '&cThe duration of the fight has been reached, your fight was forced to end.'
+  ffa-winner: '&c<player>&f in your party has won the party FFA.'
+  your-member-died: '&c<player> &fwas killed.'
+  ffa-died: '&c<player> &fhas died.'
+  opponent-member-died: '&cBot &fhas died.'
+  can-not-teleport: '&cYou are unable to do this while in a match.'
+  countdown-message: '&c<seconds>...'
+  countdown-go: |-
+    &aThe match has started, good luck!
+    &r &r
+    &r&4&lWARNING: &r&c Butterfly Clicking will likely result in a ban.
+    &r &r
+  ffa-arena-reset: '&c&lFFA arenas will reset in &f<time> seconds&c&l.'
+  #<elo1> and <elo2> for current elos
+  #<old1> and <old2> for old elo
+  #<diff1> and <diff2> for elo changes
+  elo-fight: '&eElo changes: &f<player1> &f<old1> &7(&f+<diff1>&7) & &f<player2> <old2> &7(&f<diff2>&7)'
+  rank-message: '&eYour rank is now &f<rank>&e.'
+  you-won: '&c<loser> &fwas killed by &c<winner>&f.'
+  did-not-win: '&c<loser> &fwas killed by &c<winner>&f.'
+  blocked-command: '&cYou are unable to do this right now.'
+  lms-joined: '&c<player> &ehas joined the event!'
+  lms-left: '&c<player> &ehas left the event!'
+  lms-death-message: |-
+    &r 
+    &c<player>&f has died.
+    &fCurrent &c<alive> &fplayers left.
+    &r
+  lms-already-started: '&cThe LMS event is not open now.'
+  lms-winner: |-
+    &7&m---------------------------
+    &fTournament
+    &c ● &fName: &cLast Man Standing
+    &c ● &fWinner: &c<player>
+    &7&m---------------------------
+  lms-has-not-started: '&cThe LMS event is not open yet.'
+  koth-winner: |-
+    &7&m---------------------------
+    &fTournament
+    &c ● &fName: &cKOTH
+    &c ● &fWinner: &c<team>
+    &7&m---------------------------
+  koth-join-back: '&fJoin the &cKOTH &efvent again with &c/koth join&f.'
+  koth-already-started: '&cThe event has already started.'
+  koth-has-not-started: '&cThe KOTH event is not open yet.'
+  koth-joined: '&c<player> &ehas joined the event!'
+  koth-left: '&c<player> &ehas left the event!'
+  can-not-duel-that-player: '&cYou can not duel that player now.'
+  brackets-next-fight: '&fThe next brackets fight is &c<player1> &fVS &c<player2>&f.'
+  brackets-slays: '&c<player1> &fslays &c<player2> &fin the brackets event.'
+  brackets-winner: |-
+    &7&m---------------------------
+    &fTournament
+    &c ● &fName: &cBrackets
+    &c ● &fWinner: &c<player>
+    &7&m---------------------------
+  brackets-joined: '&c<player> &ehas joined the event!'
+  brackets-left: '&c<player> &ehas left the event!'
+  brackets-already-started: '&cThe event has already started.'
+  brackets-not-started: '&cThe brackets event is not open yet.'
+  sumo-next-fight: '&fThe next sumo fight is &c<player1> &fVS &c<player2>&f.'
+  sumo-slays: '&c<player1> &fslays &c<player2> &fin the sumo event.'
+  sumo-winner: |-
+    &7&m---------------------------
+    &fTournament
+    &c ● &fName: &cSumo
+    &c ● &fWinner: &c<player>
+    &7&m---------------------------
+  sumo-joined: '&c<player> &ehas joined the event!'
+  sumo-left: '&c<player> &ehas left the event!'
+  sumo-already-started: '&cThe event has already started.'
+  sumo-not-started: '&cThe sumo event is not open yet.'
+  language-set: '&fYour language is now &c<language>&f.'
+  queue-cooldown: '&cYou have to wait &e<time> &cseconds before doing this again.'
+  elo-queue-cooldown: '&cYou have to wait &e<time> &cseconds before doing this again.'
+  duel-requests-off: '&eYou''ve &cdisabled &eyour duels request and will no longer get duel requests.'
+  duel-requests-on: '&eYou''ve &aenabled &eyour duels request and will recieve duel requests'
+  has-requests-disabled: '&cPlayer &f<player>&c has disabled duel requests.'
+  playback-not-found: '&cI''m sorry, but this replay could not be located in our database.'
+  kill-cam: '&c&lYour previous fight was recorded. &a&l[WATCH]'
+  teleporting: '&fTeleporting in &c<seconds> seconds&f...'
+  teleport-cancelled: '&cThe teleport cancelled because you took damage or moved.'
+  party-help:
+    - '&4&m*------------------------------------------*'
+    - '&4&l Party &e&l┃ &4&lHelp'
+    - '&4&m*------------------------------------------*'
+    - '&f'
+    - '&cMain Commands:'
+    - '&e /party create &7- To create a party'
+    - '&e /party invite <player> &7- To invite a player'
+    - '&e /party bots &7- Opens Party Bot Menu'
+    - '&f'
+    - '&cOther Commands:'
+    - '&e /party kick <player> &7- To kick a player'
+    - '&e /party promote <player> &7- To promote a player'
+    - '&e /party disband &7- Disbands the party'
+    - '&f'
+    - '&4&m*------------------------------------------*'
+  stats:
+    kills: '&eKills: &f<value>'
+    deaths: '&eDeaths: &f<value>'
+    elo: '&6<kit> elo: &f<value>'
+    party-wins: '&eParty Wins: &f<value>'
+    brackets: '&eBrackets Wins: &f<value>'
+    lms: '&eLMS Wins: &f<value>'
+    global-elo: '&eGlobal ELO: &f<value>'
+  fight-start-message:
+    #leave 'false' for no message
+    build: 'false'
+    elo: '&f<you>&7 (&f<your_elo>&7) &eVS &f<opponent>&7 (&f<opponent_elo>&7)'
+    only-bow: 'false'
+    horse: 'false'
+    sumo: |-
+      &r &r
+      &c&l Sumo:
+      &c   Knock your opponent off the platform!
+      &r &r
+    combo: |-
+      &r &r
+      &c&l Combo:
+      &c   This mode is currently abandoned and is not functioning.
+      &r &r
+    boxing: |-
+      &r &r
+      &c&l Boxing:
+      &c   First to 100 hits wins!
+      &r &r
+    bedwars: 'false'
+    the-bridge: 'false'
+    duel: 'false'
+    bot-duel: |-
+      &r &r
+      &c&l Bot Match
+      &4&l  ● &fMap: &c%aipractice_arena%
+      &4&l  ● &fDifficulty: &c%aipractice_difficulty%
+      &4&l  ● &fOpponent: &cBot
+      &r &r
+    party-ffa: 'false'
+    party-vs-party: 'false'
+    party-split: 'false'
+    party-bots: |-
+      &r &r
+      &c&l Bot Match
+      &4&l  ● &fMap: &c%aipractice_arena%
+      &4&l  ● &fDifficulty: &c%aipractice_difficulty%
+      &4&l  ● &fOpponents: &cBot&f's Team
+      &r &r

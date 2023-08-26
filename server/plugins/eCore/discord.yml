@@ -1,0 +1,63 @@
+discord_web_hook:
+  enabled: false
+  url: ""
+#You can configure url for each announcement, by default the URL set above will be used, if you want to change the channel where announcement is sent, just change the url
+announcements:
+  punishment:
+    enabled: true
+    url: "GLOBAL"
+    color: "CYAN"
+    format:
+      title: "Punishment Executed"
+      description:
+        - "<punish_message>"
+        - " "
+        - "**Reason**: <reason>"
+        - "**Duration**: <duration>"
+        - "**Current Time**: <current>"
+        - " "
+        - "Target's UUID: **<target_uuid>**"
+  rank-change:
+    enabled: true
+    url: "GLOBAL"
+    color: "CYAN"
+    format:
+      grant-format: "     [!] **<name>** (<duration>)"
+      title: "<name>'s Rank Change"
+      description:
+        - " "
+        - "**<executor>** granted **<rank>** to **<user>**<line><line>[!] Reason: **<reason>**<line>[!] Duration: **<duration>**<line>[!] Server: **<server>**"
+        - " "
+        - "Current grants:"
+        - "{grants}"
+        - " "
+        - "Main rank: **<main>**"
+        - "Target's UUID: **<target_uuid>**"
+  helpop:
+    enabled: true
+    url: "GLOBAL"
+    color: "GREEN"
+    format:
+      title: "New Staff Request"
+      description:
+        - " "
+        - "**<name>** requested staff help from **<server>**!"
+        - ""
+        - "**Reason**: `<reason>`"
+        - "**Current Time**: <current>"
+  report:
+    enabled: true
+    url: "GLOBAL"
+    color: "GREEN"
+    format:
+      title: "New Report from <name>"
+      description:
+        - " "
+        - "**<name>** reported **<hacker>**!"
+        - ""
+        - "**Reason**: `<reason>`"
+        - " "
+        - "**<player>'s server**: <player_server>"
+        - "**<target>'s server**: <target_server>"
+        - " "
+        - "**Current Time**: <current>"

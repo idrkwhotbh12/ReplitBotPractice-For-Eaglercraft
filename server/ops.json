@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "e5306523-973d-33cc-9462-6c8ad66f82a8",
+    "name": "logintimedout",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9f8a6b0a-5b54-355d-b78e-bd93e5f3195f",
+    "name": "haxer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,213 @@
+#                                             #
+# ---------------------------------------------#
+# Scoreboard                                  #
+# ---------------------------------------------#
+#                                             #
+# Check spigotmc page for placeholders and help with [display=true/false] function if needed
+scoreboard:
+  enabled: true
+  # In ticks
+  update-time: 10
+  # When the player has the 'default' scoreboard
+  lobby-update-time: 10
+  disabled-worlds:
+    - 'exampleWorld'
+  # Try this if the scoreboard conflicts with other scoreboard/tag/tab plugins
+  # 'false' has better performance
+  sync-set: true
+  # Whether scoreboard lines should copy colors from the prefix to main name and from main name to suffix
+  # Helps with color bugs in newer Minecraft versions, disable if it causes more issues.
+  copy-previous-colors: true
+  # Should the scoreboard be updated just after a player teleports
+  # Results in a smooth scoreboard updating when joining games and fights
+  teleport-update: true
+  enhanced-performance: true
+  # Should the enderpearl cooldown be displayed only during fight
+  enderpearl-cooldown-only-in-fight: true
+  # Title of the scoreboard
+  title: '&c&lBot Practice'
+  avoid-errors: true
+  # Add a color codes if you have same line multiple times (otherwise it will disappear)
+  default:
+    - '&4&m*----------&4&m------*&r'
+    - '&fOnline: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>][display=!<is_party>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>][display=!<is_party>]'
+  duel:
+    - '&4&m*----------&4&m------*&r'
+    - '&fMatch Ended...[display=<ended>]'
+    - '[display=<ended>]'
+    - '&fDuration: &c<duration>[display=!<ended>][display=!<started>]'
+    - '&fDifficulty: &c<difficulty>[display=!<ended>]'
+    - '[display=<started>]'
+    - '[display=!<ended>][display=!<started>]'
+    - '&fHits: %botstats_hitsdifference%[display=<is_boxing>][display=!<ended>][display=!<started>]'
+    - ' &fYou: &c<hits>[display=<is_boxing>][display=!<ended>][display=!<started>]'
+    - ' &fThem: &c%botstats_hits%[display=<is_boxing>][display=!<ended>][display=!<started>]'
+    - ' %botstats_combo%[display=<is_boxing>][display=!<ended>][display=!<started>]'
+    - '[display=<is_boxing>][display=!<ended>][display=!<started>]'
+    - '&fYour Ping: &c<ping> ms[display=!<ended>][display=!<started>]'
+    - '&fTheir Ping: &c%bot_Ping% ms[display=!<ended>][display=!<started>]'
+    - ''
+    - '&ctropic.land'
+    - '&4&m*----------------*&r'
+  party-ffa:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fParty FFA'
+    - '&c ● &fPlayers: &c<enemy_team_left>&f/&c<party_members>'
+    - '&c ● &fFight Duration: &c<duration>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  party-split:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fParty Split'
+    - '&c ● &fYour Team: &c<own_team_left>&f/&c<own_team_members>'
+    - '&c ● &fEnemy Team: &c<enemy_team_left>&f/&c<enemy_team_members>'
+    - '&c ● &fFight Duration: &c<duration>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  party-vs-bots:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<own_team_left>&f/&c<own_team_members>'
+    - '&fBots: &c<enemy_team_left>&f/&c<enemy_team_members>'
+    - ''
+    - '&fDifficulty: &c<difficulty>'
+    - '&fDuration: &c<duration>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  party-vs-party:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fParty VS Party'
+    - '&c ● &fEnemy: &c<enemy_team_owner>'
+    - '&c ● &fYour Team: &c<own_team_left>&f/&c<party_members>'
+    - '&c ● &fEnemy Team: &c<enemy_team_left>&f/&c<enemy_team_members>'
+    - '&c ● &fFight Duration: &c<duration>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  brackets:
+    - '&4&m*----------&4&m------*&r'
+    - '&c<current_fight_player1> &f(&c<player1_ping> ms&f)[display=<brackets_started>]'
+    - '&fvs[display=<brackets_started>]'
+    - '&c<current_fight_player2> &f(&c<player2_ping> ms&f)[display=<brackets_started>]'
+    - '&fPlayers: &c<players>[display=!<brackets_started>]'
+    - '&fIn Fights: &c<in_fight>[display=!<brackets_started>]'
+    - ''
+    - '&fTournament'
+    - '&c ● &fName: &cBrackets'
+    - '&c ● &fState: &cWaiting[display=!<brackets_started>]'
+    - '&c ● &fState: &cStarted[display=<brackets_started>]'
+    - '&c ● &fFight Duration: &c<duration>[display=<brackets_started>]'
+    - '&c ● &fDuration: &c<total_duration>[display=<brackets_started>]'
+    - '&c ● &fPlayers: &c<players_left>&f/&c<total_players>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  sumo:
+    - '&4&m*----------&4&m------*&r'
+    - '&c<current_fight_player1> &f(&c<player1_ping> ms&f)[display=<sumo_started>]'
+    - '&fvs[display=<sumo_started>]'
+    - '&c<current_fight_player2> &f(&c<player2_ping> ms&f)[display=<sumo_started>]'
+    - '&fPlayers: &c<players>[display=!<sumo_started>]'
+    - '&fIn Fights: &c<in_fight>[display=!<sumo_started>]'
+    - ''
+    - '&fTournament'
+    - '&c ● &fName: &cSumo'
+    - '&c ● &fState: &cWaiting[display=!<sumo_started>]'
+    - '&c ● &fState: &cStarted[display=<sumo_started>]'
+    - '&c ● &fPlayers: &c<players_left>&f/&c<total_players>'
+    - '&c ● &fFight: &c<duration>[display=<sumo_started>]'
+    - '&c ● &fDuration: &c<total_duration>[display=<sumo_started>]'
+    - ''
+    - '&ctropic.land'
+    - '&4&m*----------------*&r'
+  juggernaut:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fTournament'
+    - '&c ● &fName: &cJuggernaut'
+    - '&c ● &fState: &cStarted'
+    - '&c ● &fJuggernaut: &c<juggernaut>'
+    - '&c ● &fDuration: &c<total_duration>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  lms:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fTournament'
+    - '&c ● &fName: &cLMS'
+    - '&c ● &fState: &cStarted'
+    - '&c ● &fDuration: &c<total_duration>'
+    - '&c ● &fPlayers: &c<alive>&f/&c<lms_players>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  koth:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fFighting: &c<in_fight>'
+    - ''
+    - '&fTournament'
+    - '&c ● &fName: &cKOTH'
+    - '&c ● &fState: &cStarted'
+    - '&c ● &fDuration: &c<total_duration>'
+    - '&c ● &fCapper: &c<capper>'
+    - '&c ● &fTeam: &c<capper_team>'
+    - '&c ● &fTimer: &c<timer>'
+    - '[display=!<is_enderpearl_cooldown>]'
+    - '&ctropic.land[display=!<is_enderpearl_cooldown>]'
+    - '&4&m*----------------*&r[display=!<is_enderpearl_cooldown>]'
+  queue:
+    - '&4&m*----------&4&m------*&r'
+    - '&fPlayers: &c<players>'
+    - '&fIn Fights: &c<in_fight>'
+    - ''
+    - '&fQueue:'
+    - ' &c<queuetype> <kit>'
+    - ''
+    - '&ctropic.land'
+    - '&4&m*----------------*&r'
+  spectator:
+    - '&4&m*----------&4&m------*&r'
+    - '&fDuration: &c<duration>[display=!<is_ffa>]'
+    - '&fDifficulty: &c<difficulty>'
+    - '&fRound: &c<round>&f/&c3[display=<is_bestof>]'
+    - ''
+    - '&9<playerA> &f(<playerA_ping> ms)'
+    - '&fvs.'
+    - '&cBot &f(0 ms)'
+    - ''
+    - '&fTeam 1: &c<own_team_left>'
+    - '&fTeam 2: &c<enemy_team_left>'
+    - ''
+    - '&ctropic.land'
+    - '&4&m*----------------*&r'
+  # this will be appended in the scoreboard whenever the player is in a party
+  party-addition:
+    - '&fParty:'
+    - '&c ● &fLeader: &c<party_owner>'
+    - '&c ● &fMembers: &c<party_members>&f/&c10'
+    - ''
+    - '&ctropic.land'
+    - '&4&m*----------------*&r'
+  # this will be appended if the player is on enderpearl cooldown
+  enderpearl-cooldown-addition: []

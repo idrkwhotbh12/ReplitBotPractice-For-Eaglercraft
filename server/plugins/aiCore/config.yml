@@ -1,0 +1,1117 @@
+sql:
+  enabled: false
+  host: localhost
+  port: '3306'
+  database: botdata
+  username: root
+  password: ''
+bukkitevents:
+  projectileHitEvent: true
+botSetting:
+  EASY:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+  NORMAL:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+  HARD:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+  EXPERT:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+data:
+  e75518c8-ac16-4816-adb7-9d337a58f1d9:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+  e5306523-973d-33cc-9462-6c8ad66f82a8:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0
+  6d952b35-4b79-36f6-8e10-ae9df025a89b:
+    '&cAttack Settings':
+      Reach:
+        value: 2.7
+        randomizer: 0.0
+      CPS:
+        value: 6
+        randomizer: 0.0
+      Swing Range:
+        value: 6
+        randomizer: 0.0
+      Reduce:
+        value: false
+        randomizer: 0.0
+      Player Hitbox:
+        value: 0.3
+        randomizer: 0.0
+    '&cVelocity Settings':
+      Horizontal:
+        value: 0.47
+        randomizer: 0.0
+      Vertical:
+        value: 0.35
+        randomizer: 0.0
+      Dependent Range:
+        value: 3.2
+        randomizer: 0.0
+      Dependent Range Multiplier:
+        value: 0.15
+        randomizer: 0.0
+      Motion Friction:
+        value: 1.0
+        randomizer: 0.0
+      Sprint Multiplier:
+        value: 1.2
+        randomizer: 0.0
+      Ground Multiplier:
+        value: 1.1
+        randomizer: 0.0
+    '&cRotation Settings':
+      Speed:
+        value: 18
+        randomizer: 0.0
+      Jitter Rotation:
+        value: 1.0
+        randomizer: 0.0
+      Speed Random:
+        value: 1.0
+        randomizer: 0.0
+    '&cPotion Settings':
+      Agro Potion:
+        value: false
+        randomizer: 0.0
+      Flee Health:
+        value: 4
+        randomizer: 0.0
+      First Potion Tick:
+        value: 7
+        randomizer: 0.0
+      Second Potion Tick:
+        value: 11
+        randomizer: 0.0
+      Finish Potion Tick:
+        value: 20
+        randomizer: 0.0
+      Tick Offset:
+        value: 1
+        randomizer: 0.0
+      Cancel Potion Distance:
+        value: 3.0
+        randomizer: 0.0
+      Second Potion:
+        value: true
+        randomizer: 0.0
+    '&cFlee Settings':
+      Calculated Distance:
+        value: 10.0
+        randomizer: 0.0
+      Run From Combos:
+        value: false
+        randomizer: 0.0
+      Run From Combo Hits:
+        value: 3
+        randomizer: 0.0
+      Run From Combo Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cGapple Settings':
+      preGap:
+        value: true
+        randomizer: 0.0
+      Start Eating Distance:
+        value: 7.0
+        randomizer: 0.0
+      Start Eating Timer:
+        value: 40
+        randomizer: 0.0
+      Eating Gapple Health:
+        value: 15
+        randomizer: 0.0
+      Jump Eating Distance:
+        value: 4.5
+        randomizer: 0.0
+    '&cStrafe Settings':
+      Strafe:
+        value: false
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Strafe In Combo:
+        value: false
+        randomizer: 0.0
+      Switch Side Ticks:
+        value: 20
+        randomizer: 0.0
+    '&cPearl Settings':
+      Angle Difference:
+        value: 130
+        randomizer: 0.0
+      Pearl Throw YawOffSet:
+        value: 10
+        randomizer: 0.0
+      Pearl Delay:
+        value: 600
+        randomizer: 0.0
+      Pearling Ticks:
+        value: 10
+        randomizer: 0.0
+    '&cConnection Settings':
+      Ping:
+        value: 100
+        randomizer: 0.0
+      Delayed Bot Location:
+        value: true
+        randomizer: 0.0
+      Rel-Move Simulation Ticks:
+        value: 3
+        randomizer: 0.0
+    '&cW-Tap Settings':
+      W-Tap:
+        value: true
+        randomizer: 0.0
+      Chance:
+        value: 100
+        randomizer: 0.0
+      Combo Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Long:
+        value: 1
+        randomizer: 0.0
+      Tap Start:
+        value: 3
+        randomizer: 0.0
+      BlockHitting:
+        value: false
+        randomizer: 0.0

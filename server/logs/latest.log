@@ -1,0 +1,291 @@
+[05:01:14] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[05:01:14] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[05:01:14] [Server thread/INFO]: Loading properties
+[05:01:14] [Server thread/INFO]: Default game type: SURVIVAL
+[05:01:15] [Server thread/INFO]: This server is running PandaSpigot version git-PandaSpigot-85 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) (Git: 158d845)
+[05:01:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:01:15] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[05:01:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:01:15] [Server thread/INFO]: Debug logging is disabled
+[05:01:17] [Server thread/INFO]: Data value allowed items: 
+[05:01:17] [Server thread/INFO]: Generating keypair
+[05:01:17] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[05:01:18] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[05:01:18] [Server thread/INFO]: [NametagEdit] Loading NametagEdit v4.4.10
+[05:01:18] [Server thread/INFO]: [eCore] Loading eCore v1.04-BETA
+[05:01:18] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.0
+[05:01:18] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0
+[05:01:19] [Server thread/INFO]: [eCoreNPC-Addon] Loading eCoreNPC-Addon v1.0-SNAPSHOT
+[05:01:19] [Server thread/INFO]: [HolographicDisplays] Loading HolographicDisplays v2.4.9
+[05:01:19] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[05:01:19] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.28-SNAPSHOT (build Unknown)
+[05:01:19] [Server thread/INFO]: [Skript] Loading Skript v2.6-alpha1
+[05:01:20] [Server thread/INFO]: [SkriptJSON] Loading SkriptJSON v1.0.0
+[05:01:20] [Server thread/INFO]: [aiPractice] Loading aiPractice v2.0-SNAPSHOT
+[05:01:20] [Server thread/INFO]: [aiCore] Loading aiCore v1.0-SNAPSHOT
+[05:01:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0
+[05:01:20] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[05:01:20] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[05:01:23] [Server thread/WARN]: SLF4J: No SLF4J providers were found.
+[05:01:23] [Server thread/WARN]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[05:01:23] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#noProviders for further details.
+[05:01:23] [Server thread/WARN]: SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions prior to 1.8.
+[05:01:23] [Server thread/WARN]: SLF4J: Ignoring binding found at [jar:file:/home/runner/BotPracticeTest/server/plugins/NametagEdit.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+[05:01:23] [Server thread/WARN]: SLF4J: See http://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[05:01:23] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:01:24] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[05:01:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:01:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:01:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:01:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:01:24] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[05:01:24] [Server thread/INFO]: Preparing level "world"
+[05:01:24] [Server thread/ERROR]: Could not set generator for default world 'world': Plugin 'VoidGen' does not exist
+[05:01:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:01:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:01:24] [Server thread/INFO]: Clear tick list: false
+[05:01:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:24] [Server thread/INFO]: Anti X-Ray: true
+[05:01:24] [Server thread/INFO]: 	Engine Mode: 1
+[05:01:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:01:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:01:24] [Server thread/INFO]: Mob Spawn Range: 4
+[05:01:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:01:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:01:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:01:24] [Server thread/INFO]: Random Lighting Updates: false
+[05:01:24] [Server thread/INFO]: Structure Info Saving: true
+[05:01:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:01:24] [Server thread/INFO]: Max Entity Collisions: 8
+[05:01:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:01:24] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:24] [Server thread/INFO]: View Distance: 4
+[05:01:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:01:24] [Server thread/INFO]: -------- World Settings For [world] --------
+[05:01:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:01:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:01:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:01:24] [Server thread/INFO]: World async lighting: false
+[05:01:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:01:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:01:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:01:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:01:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:01:24] [Server thread/INFO]: Water over lava flow speed: 5
+[05:01:24] [Server thread/INFO]: Fix TNT cannons: false
+[05:01:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:01:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:01:24] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:01:24] [Server thread/INFO]: Clear tick list: false
+[05:01:24] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:24] [Server thread/INFO]: Anti X-Ray: true
+[05:01:24] [Server thread/INFO]: 	Engine Mode: 1
+[05:01:24] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:01:24] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:01:24] [Server thread/INFO]: Mob Spawn Range: 4
+[05:01:24] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:24] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:24] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:01:24] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:01:24] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:01:24] [Server thread/INFO]: Random Lighting Updates: false
+[05:01:24] [Server thread/INFO]: Structure Info Saving: true
+[05:01:24] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:01:24] [Server thread/INFO]: Max Entity Collisions: 8
+[05:01:24] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:01:24] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:24] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:24] [Server thread/INFO]: View Distance: 4
+[05:01:24] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:24] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:24] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:24] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:24] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:01:24] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[05:01:24] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:01:24] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:01:24] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:01:24] [Server thread/INFO]: World async lighting: false
+[05:01:24] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:01:24] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:01:24] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:01:24] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:01:24] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:01:24] [Server thread/INFO]: Water over lava flow speed: 5
+[05:01:24] [Server thread/INFO]: Fix TNT cannons: false
+[05:01:24] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:01:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -564594087807939094)
+[05:01:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -651463181625516252)
+[05:01:26] [Server thread/INFO]: Preparing spawn area: 41%
+[05:01:27] [Server thread/INFO]: Preparing spawn area: 73%
+[05:01:27] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.4.10
+[05:01:29] [Server thread/INFO]: [eCore] Enabling eCore v1.04-BETA
+[05:01:32] [Server thread/INFO]: TrustTypeAdapter registered
+[05:01:32] [Server thread/INFO]: DiscordListener registered
+[05:01:32] [Server thread/INFO]: FreezeListener registered
+[05:01:32] [Server thread/INFO]: GodModeListener registered
+[05:01:32] [Server thread/INFO]: MenuListener registered
+[05:01:32] [Server thread/INFO]: PanicListener registered
+[05:01:32] [Server thread/INFO]: InternalStreamConnectionProcess registered
+[05:01:32] [Server thread/INFO]: PunishmentsListener registered
+[05:01:32] [Server thread/INFO]: QuickAccessListener registered
+[05:01:32] [Server thread/INFO]: StaffAuthListener registered
+[05:01:32] [Server thread/INFO]: StaffModeListener registered
+[05:01:32] [Server thread/INFO]: WorldListener registered
+[05:01:33] [Server thread/INFO]: [Core] [Log] Loaded 278 skin(s) from cache.
+[05:01:33] [Server thread/INFO]: [eCore] TLS/SSL for Mongo database connection is disabled.
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'coins' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'panic' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'unpanic' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'getips' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'setjoinlocation' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'tps' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'teamspeak' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'blacklistedpermissions' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'punishinfo' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'notes' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'auth' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'authreset' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'toggletips' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'togglementions' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'disguise' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'cachedisguise' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'undisguise' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [Core] [Log] Command 'vanishoptions' has been disabled due to configuration!
+[05:01:34] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: ecore [1.04-BETA]
+[05:01:34] [Server thread/INFO]: [Core] [Log] Placeholder API expansion successfully registered.
+[05:01:34] [Server thread/INFO]: [Core] [Log] Vault Provider successfully registered.
+[05:01:34] [Server thread/INFO]: [Core] [Log] Trying to connect redis (redis-14327.c300.eu-central-1-1.ec2.cloud.redislabs.com:14327, eHbC7HcgFpv0Y1QLj4OyaVSApXrfelZc)
+[05:01:36] [Server thread/INFO]: [Core] [Log] Redis is now successfully connected and synchronization is ready!
+[05:01:36] [Server thread/INFO]: [Core] [Log] Successfully registered packets. (33 total)
+[05:01:36] [Server thread/INFO]: *----------------------------------------------------------*
+[05:01:36] [Server thread/INFO]: eCore
+[05:01:36] [Server thread/INFO]:  
+[05:01:36] [Server thread/INFO]: Info:
+[05:01:36] [Server thread/INFO]:  ● Name: eCore
+[05:01:36] [Server thread/INFO]:  ● Authors: [tdvne, Lucanius, atyre, OhEmilyy]
+[05:01:36] [Server thread/INFO]:  ● Version: 1.04-BETA
+[05:01:36] [Server thread/INFO]:  
+[05:01:36] [Server thread/INFO]:  ● Mongo: Enabled
+[05:01:36] [Server thread/INFO]:  ● Redis: Enabled
+[05:01:36] [Server thread/INFO]: *----------------------------------------------------------*
+[05:01:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.0
+[05:01:37] [Redis Thread - 0/INFO]: [Core] [ServerManager] Tropic-BotPractice has just came online and will be joinable in 5 seconds!
+[05:01:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[05:01:38] [Server thread/INFO]: [eCoreNPC-Addon] Enabling eCoreNPC-Addon v1.0-SNAPSHOT
+[05:01:41] [Server thread/INFO]: [HolographicDisplays] Enabling HolographicDisplays v2.4.9
+[05:01:43] [Server thread/INFO]: [HolographicDisplays] Enabled player relative placeholders with ProtocolLib.
+[05:01:43] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.28-SNAPSHOT (build Unknown)
+[05:01:45] [Server thread/INFO]: [Skript] Enabling Skript v2.6-alpha1
+[05:01:47] [Server thread/ERROR]: [Skript] This version of Skript does not work with Minecraft 1.8.8 and requires Minecraft 1.9.4+
+[05:01:47] [Server thread/ERROR]: [Skript] You probably want Skript 2.2 or 2.1 (Google to find where to get them)
+[05:01:47] [Server thread/ERROR]: [Skript] Note that those versions are, of course, completely unsupported!
+[05:01:47] [Server thread/INFO]: [SkriptJSON] Enabling SkriptJSON v1.0.0
+[05:01:49] [Server thread/INFO]: [aiPractice] Enabling aiPractice v2.0-SNAPSHOT
+[05:01:50] [Server thread/INFO]: aiPractice Detected Version (1_8_R3)
+[05:01:50] [Server thread/INFO]: Using older empty world generator!
+[05:01:50] [Server thread/INFO]: -------- World Settings For [arene] --------
+[05:01:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[05:01:50] [Server thread/INFO]: Clear tick list: false
+[05:01:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[05:01:50] [Server thread/INFO]: Anti X-Ray: true
+[05:01:50] [Server thread/INFO]: 	Engine Mode: 1
+[05:01:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[05:01:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[05:01:50] [Server thread/INFO]: Mob Spawn Range: 4
+[05:01:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[05:01:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[05:01:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[05:01:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[05:01:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[05:01:50] [Server thread/INFO]: Random Lighting Updates: false
+[05:01:50] [Server thread/INFO]: Structure Info Saving: true
+[05:01:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[05:01:50] [Server thread/INFO]: Max Entity Collisions: 8
+[05:01:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[05:01:50] [Server thread/INFO]: Max TNT Explosions: 100
+[05:01:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[05:01:50] [Server thread/INFO]: View Distance: 4
+[05:01:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[05:01:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[05:01:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[05:01:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[05:01:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[05:01:50] [Server thread/INFO]: -------- World Settings For [arene] --------
+[05:01:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[05:01:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[05:01:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[05:01:50] [Server thread/INFO]: World async lighting: false
+[05:01:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[05:01:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[05:01:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[05:01:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[05:01:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[05:01:50] [Server thread/INFO]: Water over lava flow speed: 5
+[05:01:50] [Server thread/INFO]: Fix TNT cannons: false
+[05:01:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[05:01:50] [Server thread/INFO]: Preparing start region for level 2 (Seed: 5018256474411005268)
+[05:01:51] [Server thread/WARN]: Download BadlionClientTimerAPI to support cooldowns for BAC. https://github.com/BadlionNetwork/BadlionClientTimerAPI/releases
+[05:01:51] [Server thread/INFO]: [aiPractice] Preloading replays asynchronously in the Cloud.
+[05:01:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aipractice [2.0-SNAPSHOT]
+[05:01:51] [Server thread/WARN]: keep-arenas-loaded could not be enabled! Probably old server software.
+[05:01:51] [Thread-9/INFO]: Deleted 0 replay matches (older than 7.0 days)
+[05:01:51] [Thread-9/INFO]: Preloaded 1 replay matches in 0 seconds.
+[05:01:52] [Server thread/ERROR]: [aiPractice] aiPractice v2.0-SNAPSHOT attempted to register an invalid EventHandler method signature "public void ga.strikepractice.spectator.SpectatorListener.onCommand(org.bukkit.event.player.PlayerCommandPreprocessEvent,ga.strikepractice.fights.Fight)" in class ga.strikepractice.spectator.SpectatorListener
+[05:01:52] [Server thread/INFO]: Enabled (experimental) report replays. Disable with disable-report-replay: true
+[05:01:53] [Server thread/WARN]: Arenas-stacking is not enabled. Build arenas in main arenas world are used.
+[05:01:53] [Server thread/INFO]: [aiPractice] aiPractice was enabled in 3301 ms.
+[05:01:53] [Server thread/INFO]: [aiCore] Enabling aiCore v1.0-SNAPSHOT
+[05:01:54] [Server thread/INFO]: OptimizedBotsV2 added support for aiPractice
+[05:01:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bot [1.0]
+[05:01:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bothealth [1.0]
+[05:01:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: botstats [1.0]
+[05:01:54] [Server thread/INFO]: OptimizedBotsV2 added support for PlaceHolderAPI
+[05:01:54] [Server thread/INFO]: SQL: START
+[05:01:54] [Server thread/INFO]: SQL: START
+[05:01:54] [Server thread/INFO]: Loading OptimizedBotsV2 by crafticat.
+[05:01:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:01:55] [Server thread/INFO]: Done (31.011s)! For help, type "help" or "?"
+[05:01:55] [Server thread/INFO]: Using epoll channel type
+[05:01:55] [Server thread/INFO]: Timings Reset
+[05:01:56] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:01:56] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[05:01:56] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[05:01:56] [Craft Scheduler Thread - 7/INFO]: [Vault] Checking for Updates ... 
+[05:01:57] [Server thread/INFO]: Spawning a test npc 'Xecivity' to fetch npcs' skin. The npc will be removed in 10 seconds.
+[05:02:00] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.3) is available at:
+[05:02:00] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[05:02:00] [Craft Scheduler Thread - 7/INFO]: [Vault] No new version available
+[05:02:00] [Server thread/INFO]: [HolographicDisplays] Found a new version available: v3.0.2
+[05:02:00] [Server thread/INFO]: [HolographicDisplays] Download it on Bukkit Dev:
+[05:02:00] [Server thread/INFO]: [HolographicDisplays] dev.bukkit.org/projects/holographic-displays
+[05:02:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25256ms or 505 ticks behind
+[05:12:18] [Redis Thread - 0/INFO]: [S] logintimedout disconnected from Tropic-BotPractice.

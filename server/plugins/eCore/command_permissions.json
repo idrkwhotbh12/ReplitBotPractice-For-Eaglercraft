@@ -1,0 +1,684 @@
+{
+  "commands": [
+    {
+      "name": "checkallranks",
+      "permission": "ecore.command.checkallranks",
+      "aliases": []
+    },
+    {
+      "name": "gma",
+      "permission": "ecore.command.gamemode",
+      "aliases": [
+        "gm2"
+      ]
+    },
+    {
+      "name": "gamemode",
+      "permission": "ecore.command.gamemode",
+      "aliases": [
+        "gm"
+      ]
+    },
+    {
+      "name": "gmc",
+      "permission": "ecore.command.gamemode",
+      "aliases": [
+        "gm1"
+      ]
+    },
+    {
+      "name": "gms",
+      "permission": "ecore.command.gamemode",
+      "aliases": [
+        "gm0"
+      ]
+    },
+    {
+      "name": "ignore",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "unignore",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "message",
+      "permission": "",
+      "aliases": [
+        "msg",
+        "tell",
+        "m"
+      ]
+    },
+    {
+      "name": "reply",
+      "permission": "",
+      "aliases": [
+        "r"
+      ]
+    },
+    {
+      "name": "togglemessages",
+      "permission": "",
+      "aliases": [
+        "tpm",
+        "msgtoggle",
+        "togglepm",
+        "toggleprivatemessages"
+      ]
+    },
+    {
+      "name": "togglesounds",
+      "permission": "",
+      "aliases": [
+        "tpms",
+        "togglepms",
+        "tms"
+      ]
+    },
+    {
+      "name": "addlore",
+      "permission": "ecore.command.addlore",
+      "aliases": [
+        "additemlore"
+      ]
+    },
+    {
+      "name": "removelore",
+      "permission": "ecore.command.removelore",
+      "aliases": [
+        "removeitemlore"
+      ]
+    },
+    {
+      "name": "rename",
+      "permission": "ecore.command.rename",
+      "aliases": [
+        "renameitem"
+      ]
+    },
+    {
+      "name": "teleport",
+      "permission": "ecore.command.teleport",
+      "aliases": [
+        "tp"
+      ]
+    },
+    {
+      "name": "teleporthere",
+      "permission": "ecore.command.teleporthere",
+      "aliases": [
+        "tphere",
+        "s"
+      ]
+    },
+    {
+      "name": "teleportposition",
+      "permission": "ecore.command.teleportposition",
+      "aliases": [
+        "tppos"
+      ]
+    },
+    {
+      "name": "teleportworld",
+      "permission": "ecore.command.teleportworld",
+      "aliases": [
+        "tpworld"
+      ]
+    },
+    {
+      "name": "top",
+      "permission": "ecore.command.top",
+      "aliases": []
+    },
+    {
+      "name": "adminchat",
+      "permission": "ecore.adminchat",
+      "aliases": [
+        "ac"
+      ]
+    },
+    {
+      "name": "alert",
+      "permission": "ecore.command.alert",
+      "aliases": []
+    },
+    {
+      "name": "broadcast",
+      "permission": "ecore.command.broadcast",
+      "aliases": [
+        "bc"
+      ]
+    },
+    {
+      "name": "chat",
+      "permission": "ecore.command.chat",
+      "aliases": []
+    },
+    {
+      "name": "clear",
+      "permission": "ecore.command.clear",
+      "aliases": [
+        "clearinv",
+        "ci"
+      ]
+    },
+    {
+      "name": "craft",
+      "permission": "ecore.command.craft",
+      "aliases": []
+    },
+    {
+      "name": "feed",
+      "permission": "ecore.command.feed",
+      "aliases": []
+    },
+    {
+      "name": "fly",
+      "permission": "ecore.command.fly",
+      "aliases": []
+    },
+    {
+      "name": "freeze",
+      "permission": "ecore.command.freeze",
+      "aliases": [
+        "ss",
+        "screenshare"
+      ]
+    },
+    {
+      "name": "heal",
+      "permission": "ecore.command.heal",
+      "aliases": []
+    },
+    {
+      "name": "invsee",
+      "permission": "ecore.command.invsee",
+      "aliases": []
+    },
+    {
+      "name": "kill",
+      "permission": "ecore.command.kill",
+      "aliases": []
+    },
+    {
+      "name": "massay",
+      "permission": "ecore.command.massay",
+      "aliases": []
+    },
+    {
+      "name": "more",
+      "permission": "ecore.command.more",
+      "aliases": []
+    },
+    {
+      "name": "repair",
+      "permission": "ecore.command.repair",
+      "aliases": [
+        "fix"
+      ]
+    },
+    {
+      "name": "reports",
+      "permission": "ecore.command.reports",
+      "aliases": []
+    },
+    {
+      "name": "serverinfo",
+      "permission": "ecore.command.servermanager",
+      "aliases": []
+    },
+    {
+      "name": "skull",
+      "permission": "ecore.command.skull",
+      "aliases": [
+        "head",
+        "getskull",
+        "gethead"
+      ]
+    },
+    {
+      "name": "walkspeed",
+      "permission": "ecore.command.speed",
+      "aliases": [
+        "flyspeed"
+      ]
+    },
+    {
+      "name": "staffchat",
+      "permission": "ecore.staffchat",
+      "aliases": [
+        "sc"
+      ]
+    },
+    {
+      "name": "staffmode",
+      "permission": "ecore.command.staffmode",
+      "aliases": [
+        "mod",
+        "h",
+        "staff",
+        "modmode"
+      ]
+    },
+    {
+      "name": "sudo",
+      "permission": "ecore.command.sudo",
+      "aliases": [
+        "sudoplayer"
+      ]
+    },
+    {
+      "name": "vanish",
+      "permission": "ecore.command.vanish",
+      "aliases": [
+        "v"
+      ]
+    },
+    {
+      "name": "discord",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "god",
+      "permission": "ecore.command.god",
+      "aliases": []
+    },
+    {
+      "name": "helpop",
+      "permission": "ecore.command.helpop",
+      "aliases": [
+        "request"
+      ]
+    },
+    {
+      "name": "ping",
+      "permission": "",
+      "aliases": [
+        "latency",
+        "ms"
+      ]
+    },
+    {
+      "name": "playtime",
+      "permission": "ecore.command.playtime",
+      "aliases": [
+        "pt"
+      ]
+    },
+    {
+      "name": "report",
+      "permission": "ecore.command.report",
+      "aliases": []
+    },
+    {
+      "name": "store",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "twitter",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "info",
+      "permission": "ecore.command.info",
+      "aliases": [
+        "seen"
+      ]
+    },
+    {
+      "name": "setpermission",
+      "permission": "ecore.command.setpermission",
+      "aliases": [
+        "setperm"
+      ]
+    },
+    {
+      "name": "ban",
+      "permission": "punishments.command.ban",
+      "aliases": [
+        "tempban",
+        "tban"
+      ]
+    },
+    {
+      "name": "banip",
+      "permission": "punishments.command.banip",
+      "aliases": [
+        "tempbanip",
+        "ipban",
+        "iptempban",
+        "tbanip"
+      ]
+    },
+    {
+      "name": "blacklist",
+      "permission": "punishments.command.blacklist",
+      "aliases": [
+        "bl"
+      ]
+    },
+    {
+      "name": "checkhistory",
+      "permission": "punishments.command.check",
+      "aliases": [
+        "history",
+        "check",
+        "c"
+      ]
+    },
+    {
+      "name": "kick",
+      "permission": "punishments.command.kick",
+      "aliases": []
+    },
+    {
+      "name": "mute",
+      "permission": "punishments.command.mute",
+      "aliases": [
+        "tempmute",
+        "tmute"
+      ]
+    },
+    {
+      "name": "warn",
+      "permission": "punishments.command.warn",
+      "aliases": []
+    },
+    {
+      "name": "unban",
+      "permission": "punishments.command.unban",
+      "aliases": [
+        "pardon"
+      ]
+    },
+    {
+      "name": "unblacklist",
+      "permission": "punishments.command.unblacklist",
+      "aliases": [
+        "unbl"
+      ]
+    },
+    {
+      "name": "unmute",
+      "permission": "punishments.command.unmute",
+      "aliases": []
+    },
+    {
+      "name": "staffhistory",
+      "permission": "punishments.command.staffhistory",
+      "aliases": []
+    },
+    {
+      "name": "staffrollback",
+      "permission": "punishments.command.staffrollback",
+      "aliases": []
+    },
+    {
+      "name": "grant",
+      "permission": "ecore.command.grant",
+      "aliases": []
+    },
+    {
+      "name": "grants",
+      "permission": "ecore.command.grants",
+      "aliases": []
+    },
+    {
+      "name": "rank",
+      "permission": "ecore.command.rank",
+      "aliases": [
+        "ranks"
+      ]
+    },
+    {
+      "name": "setrank",
+      "permission": "ecore.command.setrank",
+      "aliases": []
+    },
+    {
+      "name": "tag",
+      "permission": "",
+      "aliases": [
+        "tags",
+        "prefix"
+      ]
+    },
+    {
+      "name": "divisions",
+      "permission": "",
+      "aliases": [
+        "chattitles",
+        "titles"
+      ]
+    },
+    {
+      "name": "ecore",
+      "permission": "",
+      "aliases": [
+        "estacore",
+        "enova"
+      ]
+    },
+    {
+      "name": "color",
+      "permission": "",
+      "aliases": [
+        "namecolor"
+      ]
+    },
+    {
+      "name": "list",
+      "permission": "ecore.command.list",
+      "aliases": []
+    },
+    {
+      "name": "settings",
+      "permission": "",
+      "aliases": [
+        "prefs"
+      ]
+    },
+    {
+      "name": "cc",
+      "permission": "",
+      "aliases": [
+        "chatcolor"
+      ]
+    },
+    {
+      "name": "back",
+      "permission": "ecore.command.back",
+      "aliases": [
+        "lastlocation",
+        "backlocation"
+      ]
+    },
+    {
+      "name": "staffsettings",
+      "permission": "ecore.command.staffsettings",
+      "aliases": [
+        "tsm",
+        "togglestaffmessages"
+      ]
+    },
+    {
+      "name": "day",
+      "permission": "ecore.command.day",
+      "aliases": []
+    },
+    {
+      "name": "night",
+      "permission": "ecore.command.night",
+      "aliases": []
+    },
+    {
+      "name": "glist",
+      "permission": "ecore.command.glist",
+      "aliases": [
+        "globallist"
+      ]
+    },
+    {
+      "name": "gfreeze",
+      "permission": "ecore.command.guifreeze",
+      "aliases": [
+        "guifreeze",
+        "guiss",
+        "guiscreenshare"
+      ]
+    },
+    {
+      "name": "socialspy",
+      "permission": "ecore.command.socialspy",
+      "aliases": [
+        "sspy"
+      ]
+    },
+    {
+      "name": "nick",
+      "permission": "ecore.command.nick",
+      "aliases": []
+    },
+    {
+      "name": "toggleglobalchat",
+      "permission": "",
+      "aliases": [
+        "tgc"
+      ]
+    },
+    {
+      "name": "nickcheck",
+      "permission": "ecore.command.realname",
+      "aliases": []
+    },
+    {
+      "name": "ipreport",
+      "permission": "ecore.command.ipreport",
+      "aliases": []
+    },
+    {
+      "name": "teleportall",
+      "permission": "ecore.command.teleportall",
+      "aliases": [
+        "tpall"
+      ]
+    },
+    {
+      "name": "stafflist",
+      "permission": "ecore.command.stafflist",
+      "aliases": [
+        "onlinestaff"
+      ]
+    },
+    {
+      "name": "alts",
+      "permission": "punishments.command.alts",
+      "aliases": [
+        "checkalts",
+        "checkalt"
+      ]
+    },
+    {
+      "name": "maintenance",
+      "permission": "ecore.command.maintenance",
+      "aliases": []
+    },
+    {
+      "name": "registeredplayers",
+      "permission": "ecore.command.registeredplayers",
+      "aliases": []
+    },
+    {
+      "name": "staffannounce",
+      "permission": "ecore.command.staffannounce",
+      "aliases": []
+    },
+    {
+      "name": "enchant",
+      "permission": "ecore.command.enchant",
+      "aliases": []
+    },
+    {
+      "name": "exp",
+      "permission": "ecore.command.exp",
+      "aliases": [
+        "setexp",
+        "setlevel"
+      ]
+    },
+    {
+      "name": "removerank",
+      "permission": "ecore.command.removerank",
+      "aliases": []
+    },
+    {
+      "name": "setslots",
+      "permission": "ecore.command.setslots",
+      "aliases": []
+    },
+    {
+      "name": "disguiselist",
+      "permission": "ecore.command.disguiseinfo",
+      "aliases": [
+        "disguise_check"
+      ]
+    },
+    {
+      "name": "hidestaff",
+      "permission": "ecore.command.hidestaff",
+      "aliases": []
+    },
+    {
+      "name": "clearpermissions",
+      "permission": "ecore.command.clearpermissions",
+      "aliases": [
+        "clearperm",
+        "clearperms"
+      ]
+    },
+    {
+      "name": "clearalts",
+      "permission": "ecore.command.clearalts",
+      "aliases": []
+    },
+    {
+      "name": "switch",
+      "permission": "ecore.command.switch",
+      "aliases": []
+    },
+    {
+      "name": "jumpto",
+      "permission": "ecore.command.jumpto",
+      "aliases": [
+        "jt"
+      ]
+    },
+    {
+      "name": "permissions",
+      "permission": "ecore.command.permissions",
+      "aliases": []
+    },
+    {
+      "name": "buildmode",
+      "permission": "ecore.command.buildmode",
+      "aliases": []
+    },
+    {
+      "name": "help",
+      "permission": "ecore.command.help",
+      "aliases": []
+    },
+    {
+      "name": "reboot",
+      "permission": "ecore.command.reboot",
+      "aliases": []
+    }
+  ],
+  "total_commands": 106
+}

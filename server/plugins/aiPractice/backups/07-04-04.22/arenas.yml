@@ -1,0 +1,503 @@
+arenas:
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 11103.15710569439
+    y: 98.0
+    z: 11026.404083713689
+    pitch: 0.083451934
+    yaw: -270.70905
+  loc1:
+    ==: Location
+    world: world
+    x: 11005.76341750504
+    y: 98.0
+    z: 11026.538303083715
+    pitch: 3.5059109
+    yaw: -90.15296
+  display-name: §cJungle
+  center:
+    ==: Location
+    world: world
+    x: 11053.909954539915
+    y: 99.51163649525998
+    z: 11026.55215438714
+    pitch: 86.396286
+    yaw: -94.49364
+  name: jungle
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cJungle
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - nodebuff
+  - classic
+  - axe
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 100006.6776259691
+    y: 90.0
+    z: 100000.67212401514
+    pitch: -1.0709211
+    yaw: -269.17157
+  loc1:
+    ==: Location
+    world: world
+    x: 100007.5525917018
+    y: 90.0
+    z: 100000.7003272512
+    pitch: -1.8221914
+    yaw: -269.0893
+  display-name: §cGuard
+  center:
+    ==: Location
+    world: world
+    x: 100000.167493839
+    y: 92.54808790558404
+    z: 100000.53075443592
+    pitch: 88.83132
+    yaw: -92.37372
+  name: guard
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cGuard
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 12903.265553884716
+    y: 83.0
+    z: 13028.519132740705
+    pitch: -1.3356074
+    yaw: -89.928925
+  loc1:
+    ==: Location
+    world: world
+    x: 13001.601927423775
+    y: 83.0
+    z: 13028.51740979178
+    pitch: -2.086873
+    yaw: -269.70694
+  display-name: §cPine
+  center:
+    ==: Location
+    world: world
+    x: 12965.21595212908
+    y: 85.86512829970259
+    z: 13028.566777213184
+    pitch: 84.893776
+    yaw: -270.7923
+  name: pine
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cPine
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - nodebuff
+  - classic
+  - axe
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 12023.519891080608
+    y: 86.0
+    z: 12074.415597616875
+    pitch: -2.3230708
+    yaw: -180.55557
+  loc1:
+    ==: Location
+    world: world
+    x: 12023.529510995046
+    y: 85.0
+    z: 12005.280101056398
+    pitch: -1.9891363
+    yaw: 0.08356524
+  display-name: §cMushroom
+  center:
+    ==: Location
+    world: world
+    x: 12023.59901502492
+    y: 90.52883051861164
+    z: 12035.679402391377
+    pitch: 84.991486
+    yaw: 1.3356853
+  name: mushroom
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cMushroom
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - nodebuff
+  - classic
+  - axe
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 9975.532376588044
+    y: 87.0
+    z: 10005.6872333175
+    pitch: 0.03382629
+    yaw: -0.18025908
+  loc1:
+    ==: Location
+    world: world
+    x: 9975.61640762567
+    y: 87.0
+    z: 10074.340442684017
+    pitch: 3.0177087E-5
+    yaw: 180.65639
+  display-name: §cGravestone
+  center:
+    ==: Location
+    world: world
+    x: 9975.675842233455
+    y: 92.23936394214431
+    z: 10039.498081793052
+    pitch: 89.15578
+    yaw: 91.17277
+  name: gravestone
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cGravestone
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - nodebuff
+  - classic
+  - axe
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 13982.615676943067
+    y: 85.0
+    z: 14005.465000742926
+    pitch: -1.8363898
+    yaw: 358.19025
+  loc1:
+    ==: Location
+    world: world
+    x: 13982.550547764482
+    y: 85.0
+    z: 14074.339565582944
+    pitch: -1.9198738
+    yaw: 179.72133
+  display-name: §cMario
+  center:
+    ==: Location
+    world: world
+    x: 13981.867334888238
+    y: 87.15473176351254
+    z: 14036.038527421117
+    pitch: 67.44761
+    yaw: 1.9462585
+  name: mario
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cMario
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - nodebuff
+  - classic
+  - axe
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 152000.5228154679
+    y: 90.0
+    z: 152040.71386877706
+    pitch: -1.1686517
+    yaw: 179.38722
+  loc1:
+    ==: Location
+    world: world
+    x: 152000.4036536078
+    y: 90.0
+    z: 151961.16719837737
+    pitch: -1.6694853
+    yaw: -1.5860444
+  display-name: §cSoccer
+  center:
+    ==: Location
+    world: world
+    x: 152000.46125453795
+    y: 93.61463400578373
+    z: 151999.90541958116
+    pitch: 88.23275
+    yaw: 0.83472157
+  name: soccer
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cSoccer
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - boxing
+  - combo
+  - gapple
+  - pearlboxing
+  - nodebuff
+  - soup
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 100060.49253792537
+    y: 92.0
+    z: 99996.19393723983
+    pitch: -2.2538378
+    yaw: -359.885
+  loc1:
+    ==: Location
+    world: world
+    x: 100060.19556927092
+    y: 92.0
+    z: 100010.4953192106
+    pitch: -0.5843654
+    yaw: -179.83093
+  display-name: §cCastle
+  center:
+    ==: Location
+    world: world
+    x: 100060.59432728235
+    y: 93.7471306269739
+    z: 100002.30641288168
+    pitch: 83.64162
+    yaw: -272.23724
+  name: castle
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cCastle
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - sumo
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 150999.51829723548
+    y: 94.0
+    z: 150907.44742500098
+    pitch: -4.2429233
+    yaw: 0.026367188
+  loc1:
+    ==: Location
+    world: world
+    x: 151000.69601624244
+    y: 94.0
+    z: 151000.49921892706
+    pitch: -2.253816
+    yaw: 179.47069
+  display-name: §cFlower
+  center:
+    ==: Location
+    world: world
+    x: 151000.41955606127
+    y: 97.26738658591253
+    z: 150970.6514156421
+    pitch: 90.0
+    yaw: 180.63925
+  name: flower
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cFlower
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - combo
+  - gapple
+  - boxing
+  - pearlboxing
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 150000.58142836677
+    y: 90.0
+    z: 150091.61367129767
+    pitch: -3.8398252
+    yaw: 179.55388
+  loc1:
+    ==: Location
+    world: world
+    x: 150000.5838539208
+    y: 90.0
+    z: 150000.399619435
+    pitch: -2.7546568
+    yaw: 1.1686349
+  display-name: §cUniverse
+  center:
+    ==: Location
+    world: world
+    x: 149999.72639479567
+    y: 93.64650836357654
+    z: 150056.23213562663
+    pitch: 78.71664
+    yaw: 176.88264
+  name: universe
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §cUniverse
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - gapple
+  - boxing
+  - combo
+  - pearlboxing
+- ==: Arena
+  loc2:
+    ==: Location
+    world: world
+    x: 153003.47019600813
+    y: 90.0
+    z: 153044.5667719822
+    pitch: 0.16695201
+    yaw: 180.97307
+  loc1:
+    ==: Location
+    world: world
+    x: 153003.62565481395
+    y: 90.0
+    z: 152957.27743039528
+    pitch: 8.818507E-6
+    yaw: -0.91828007
+  display-name: §cTsunami
+  center:
+    ==: Location
+    world: world
+    x: 153003.65791700047
+    y: 93.64202241797845
+    z: 152996.5747387842
+    pitch: 66.278915
+    yaw: -0.16700786
+  name: tsunami
+  icon:
+    ==: org.bukkit.inventory.ItemStack
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: tsunami
+      ItemFlags: !!set
+        HIDE_PLACED_ON: null
+        HIDE_ENCHANTS: null
+        HIDE_UNBREAKABLE: null
+        HIDE_POTION_EFFECTS: null
+        HIDE_ATTRIBUTES: null
+        HIDE_DESTROYS: null
+  kits:
+  - boxing
+  - combo
+  - gapple
+  - pearlboxing

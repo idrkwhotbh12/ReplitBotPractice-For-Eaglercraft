@@ -1,0 +1,23 @@
+botSetting:
+  EASY:
+    BotName: '%player%'
+    BotSkin: '%player%'
+  NORMAL:
+    BotName: '%player%'
+    BotSkin: '%player%'
+  HARD:
+    BotName: '%player%'
+    BotSkin: '%player%'
+  EXPERT:
+    BotName: '%player%'
+    BotSkin: '%player%'
+data:
+  e75518c8-ac16-4816-adb7-9d337a58f1d9:
+    BotName: '%player%'
+    BotSkin: '%player%'
+  e5306523-973d-33cc-9462-6c8ad66f82a8:
+    BotName: '%player%'
+    BotSkin: '%player%'
+  6d952b35-4b79-36f6-8e10-ae9df025a89b:
+    BotName: '%player%'
+    BotSkin: '%player%'

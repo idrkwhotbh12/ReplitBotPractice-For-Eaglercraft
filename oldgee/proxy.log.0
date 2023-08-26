@@ -1,0 +1,424 @@
+00:59:06 [INFO] Enabled BungeeCord version unknown
+00:59:07 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+00:59:07 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+00:59:08 [INFO] Listening websockets on localhost/127.0.0.1:8082
+00:59:09 [INFO] Server bans.txt changed, it will be reloaded automatically
+00:59:09 [INFO] Reload complete
+00:59:09 [INFO] Listening on /127.11.0.1:43941
+01:01:26 [SEVERE] Exception in thread "main" 
+01:02:23 [INFO] Enabled BungeeCord version unknown
+01:02:25 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:02:25 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:02:25 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:02:26 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:02:26 [INFO] Reload complete
+01:02:27 [INFO] Listening on /127.11.0.1:43521
+01:08:56 [SEVERE] Exception in thread "main" 
+01:09:04 [INFO] Enabled BungeeCord version unknown
+01:09:06 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:09:06 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:09:06 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:09:07 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:09:07 [INFO] Reload complete
+01:09:07 [INFO] Listening on /127.11.0.1:38427
+01:14:09 [SEVERE] Exception in thread "main" 
+01:14:09 [SEVERE] java.io.IOException: Input/output error
+01:17:31 [INFO] Enabled BungeeCord version unknown
+01:17:33 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:17:33 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:17:33 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:17:34 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:17:34 [INFO] Reload complete
+01:17:34 [INFO] Listening on /127.11.0.1:38851
+01:17:57 [INFO] Closing listener [id: 0xc9fb1beb, /127.11.0.1:38851]
+01:17:57 [INFO] Closing websocket listener localhost/127.0.0.1:8082
+01:17:57 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:17:57 [INFO] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+01:17:57 [INFO] Listening on /127.11.0.1:44875
+01:18:43 [INFO] §cCommand not found
+01:18:45 [INFO] Closing listener [id: 0xef8de9af, /127.11.0.1:44875]
+01:18:45 [INFO] Closing websocket listener localhost/127.0.0.1:8082
+01:18:46 [INFO] Closing websocket listener localhost/127.0.0.1:8082
+01:18:46 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:18:46 [INFO] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+01:18:46 [INFO] Listening on /127.11.0.1:46697
+01:26:28 [SEVERE] Exception in thread "main" 
+01:26:28 [SEVERE] java.io.IOException: Input/output error
+01:26:56 [INFO] Enabled BungeeCord version unknown
+01:26:58 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:26:58 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:26:58 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:26:59 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:27:00 [INFO] Listening on /127.11.0.1:35523
+01:27:00 [INFO] Reload complete
+01:33:01 [SEVERE] Exception in thread "main" 
+01:33:01 [SEVERE] java.io.IOException: Input/output error
+01:33:01 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+01:33:01 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+01:33:01 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+01:33:01 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+01:33:01 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+01:33:01 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+01:33:01 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+01:33:01 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2038)
+01:33:01 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2242)
+01:33:01 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2162)
+01:33:01 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:231)
+01:33:29 [INFO] Enabled BungeeCord version unknown
+01:33:31 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:33:31 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:33:31 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:33:32 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:33:32 [INFO] Reload complete
+01:33:32 [INFO] Listening on /127.11.0.1:43595
+01:33:47 [INFO] Closing listener [id: 0xbf12ab87, /127.11.0.1:43595]
+01:33:47 [INFO] Closing websocket listener localhost/127.0.0.1:8082
+01:33:47 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:33:47 [INFO] §l§cBungeeCord has been reloaded. This is NOT advisable and you will not be supported with any issues that arise! Please restart BungeeCord ASAP.
+01:33:48 [INFO] Listening on /127.11.0.1:43779
+02:40:02 [SEVERE] Exception in thread "main" 
+02:40:02 [SEVERE] java.io.IOException: Input/output error
+02:40:02 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+02:40:02 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+02:40:12 [INFO] Enabled BungeeCord version unknown
+02:40:14 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+02:40:14 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+02:40:14 [INFO] Listening websockets on localhost/127.0.0.1:8082
+02:40:14 [INFO] Server bans.txt changed, it will be reloaded automatically
+02:40:14 [INFO] Reload complete
+02:40:15 [INFO] Listening on /127.11.0.1:37051
+02:50:26 [INFO] Enabled BungeeCord version unknown
+02:50:28 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+02:50:28 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+02:50:28 [INFO] Listening websockets on localhost/127.0.0.1:8082
+02:50:29 [INFO] Server bans.txt changed, it will be reloaded automatically
+02:50:29 [INFO] Reload complete
+02:50:30 [INFO] Listening on /127.11.0.1:42349
+03:52:18 [INFO] Enabled BungeeCord version unknown
+03:52:25 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+03:52:25 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+03:52:26 [INFO] Listening websockets on localhost/127.0.0.1:8082
+03:52:30 [INFO] Server bans.txt changed, it will be reloaded automatically
+03:52:30 [INFO] Listening on /127.11.0.1:33487
+03:52:30 [INFO] Reload complete
+08:31:24 [INFO] Enabled BungeeCord version unknown
+08:31:26 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+08:31:26 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+08:31:26 [INFO] Listening websockets on localhost/127.0.0.1:8082
+08:31:27 [INFO] Server bans.txt changed, it will be reloaded automatically
+08:31:27 [INFO] Reload complete
+08:31:27 [INFO] Listening on /127.11.0.1:46551
+20:25:02 [INFO] Enabled BungeeCord version unknown
+20:25:03 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+20:25:03 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+20:25:03 [INFO] Listening websockets on localhost/127.0.0.1:8082
+20:25:04 [INFO] Server bans.txt changed, it will be reloaded automatically
+20:25:04 [INFO] Reload complete
+20:25:04 [INFO] Listening on /127.11.0.1:42453
+21:56:49 [INFO] Enabled BungeeCord version unknown
+21:56:54 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:56:54 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+21:56:55 [INFO] Listening websockets on localhost/127.0.0.1:8082
+21:56:57 [INFO] Listening on /127.11.0.1:38467
+21:56:57 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:56:58 [INFO] Reload complete
+22:25:54 [INFO] Enabled BungeeCord version unknown
+22:25:56 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:25:56 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:25:56 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:25:58 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:25:58 [INFO] Reload complete
+22:25:59 [INFO] Listening on /127.11.0.1:45843
+22:44:23 [INFO] Enabled BungeeCord version unknown
+22:44:26 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:44:26 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:44:27 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:44:32 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:44:33 [INFO] Reload complete
+22:44:33 [INFO] Listening on /127.11.0.1:33495
+00:24:47 [INFO] Enabled BungeeCord version unknown
+00:24:49 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+00:24:49 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+00:24:49 [INFO] Listening websockets on localhost/127.0.0.1:8082
+00:24:50 [INFO] Server bans.txt changed, it will be reloaded automatically
+00:24:50 [INFO] Reload complete
+00:24:50 [INFO] Listening on /127.11.0.1:45775
+02:15:07 [INFO] Enabled BungeeCord version unknown
+02:15:14 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+02:15:14 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+02:15:15 [INFO] Listening websockets on localhost/127.0.0.1:8082
+02:15:19 [INFO] Server bans.txt changed, it will be reloaded automatically
+02:15:19 [INFO] Reload complete
+02:15:19 [INFO] Listening on /127.11.0.1:45855
+17:40:10 [INFO] Enabled BungeeCord version unknown
+17:40:10 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+17:40:10 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+17:40:11 [INFO] Listening websockets on localhost/127.0.0.1:8082
+17:40:11 [INFO] Server bans.txt changed, it will be reloaded automatically
+17:40:11 [INFO] Reload complete
+17:40:11 [INFO] Listening on /127.11.0.1:41287
+21:24:47 [INFO] Enabled BungeeCord version unknown
+21:24:48 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+21:24:48 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+21:24:49 [INFO] Listening websockets on localhost/127.0.0.1:8082
+21:24:50 [INFO] Server bans.txt changed, it will be reloaded automatically
+21:24:50 [INFO] Reload complete
+21:24:51 [INFO] Listening on /127.11.0.1:44473
+22:14:25 [INFO] Enabled BungeeCord version unknown
+22:14:30 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:14:30 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:14:30 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:14:34 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:14:35 [INFO] Reload complete
+22:14:35 [INFO] Listening on /127.11.0.1:32969
+01:48:56 [INFO] Enabled BungeeCord version unknown
+01:48:57 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:48:57 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:48:57 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:48:58 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:48:58 [INFO] Reload complete
+01:48:58 [INFO] Listening on /127.11.0.1:39585
+06:26:52 [INFO] Enabled BungeeCord version unknown
+06:26:53 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+06:26:53 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+06:26:53 [INFO] Listening websockets on localhost/127.0.0.1:8082
+06:26:53 [INFO] Server bans.txt changed, it will be reloaded automatically
+06:26:53 [INFO] Reload complete
+06:26:53 [INFO] Listening on /127.11.0.1:41699
+23:51:16 [INFO] Enabled BungeeCord version unknown
+23:51:17 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+23:51:17 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+23:51:17 [INFO] Listening websockets on localhost/127.0.0.1:8082
+23:51:18 [INFO] Server bans.txt changed, it will be reloaded automatically
+23:51:18 [INFO] Reload complete
+23:51:18 [INFO] Listening on /127.11.0.1:38793
+19:18:31 [INFO] Enabled BungeeCord version unknown
+19:18:32 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+19:18:32 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+19:18:32 [INFO] Listening websockets on localhost/127.0.0.1:8082
+19:18:33 [INFO] Server bans.txt changed, it will be reloaded automatically
+19:18:33 [INFO] Listening on /127.11.0.1:40917
+19:18:33 [INFO] Reload complete
+22:25:40 [INFO] Enabled BungeeCord version unknown
+22:25:42 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:25:42 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:25:42 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:25:44 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:25:44 [INFO] Reload complete
+22:25:44 [INFO] Listening on /127.11.0.1:43381
+22:33:18 [SEVERE] Exception in thread "main" 
+22:33:32 [INFO] Enabled BungeeCord version unknown
+22:33:36 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:33:36 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:33:36 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:33:37 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:33:37 [INFO] Reload complete
+22:33:37 [INFO] Listening on /127.11.0.1:40909
+22:34:28 [SEVERE] Exception in thread "main" 
+22:34:28 [SEVERE] java.io.IOException: Input/output error
+22:34:28 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+22:34:28 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+22:34:28 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+22:34:28 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+22:34:28 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+22:34:28 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+22:34:42 [INFO] Enabled BungeeCord version unknown
+22:34:45 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:34:45 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:34:45 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:34:46 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:34:47 [INFO] Reload complete
+22:34:47 [INFO] Listening on /127.11.0.1:43759
+22:39:41 [SEVERE] Exception in thread "main" 
+22:39:41 [SEVERE] java.io.IOException: Input/output error
+22:39:41 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+22:39:41 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+22:39:41 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+22:39:41 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+22:39:54 [INFO] Enabled BungeeCord version unknown
+22:39:57 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:39:57 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:39:57 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:39:58 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:39:58 [INFO] Reload complete
+22:39:58 [INFO] Listening on /127.11.0.1:36889
+04:09:11 [INFO] Enabled BungeeCord version unknown
+04:09:13 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+04:09:13 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+04:09:13 [INFO] Listening websockets on localhost/127.0.0.1:8082
+04:09:14 [INFO] Server bans.txt changed, it will be reloaded automatically
+04:09:14 [INFO] Reload complete
+04:09:14 [INFO] Listening on /127.11.0.1:43405
+19:51:22 [INFO] Enabled BungeeCord version unknown
+19:51:23 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+19:51:23 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+19:51:23 [INFO] Listening websockets on localhost/127.0.0.1:8082
+19:51:24 [INFO] Server bans.txt changed, it will be reloaded automatically
+19:51:24 [INFO] Reload complete
+19:51:24 [INFO] Listening on /127.11.0.1:38615
+02:29:02 [INFO] Enabled BungeeCord version unknown
+02:29:02 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+02:29:02 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+02:29:02 [INFO] Listening websockets on localhost/127.0.0.1:8082
+02:29:03 [INFO] Server bans.txt changed, it will be reloaded automatically
+02:29:03 [INFO] Reload complete
+02:29:03 [INFO] Listening on /127.11.0.1:33933
+17:49:34 [INFO] Enabled BungeeCord version unknown
+17:49:35 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+17:49:35 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+17:49:35 [INFO] Listening websockets on localhost/127.0.0.1:8082
+17:49:35 [INFO] Server bans.txt changed, it will be reloaded automatically
+17:49:35 [INFO] Reload complete
+17:49:35 [INFO] Listening on /127.11.0.1:33323
+17:51:21 [SEVERE] Exception in thread "main" 
+17:51:21 [SEVERE] java.io.IOException: Input/output error
+17:51:21 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+17:51:21 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+17:51:21 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+17:51:21 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+17:51:21 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+17:51:21 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+17:51:21 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+17:51:21 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2038)
+17:51:21 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2242)
+17:51:21 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2162)
+17:51:21 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:231)
+17:51:27 [INFO] Enabled BungeeCord version unknown
+17:51:29 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+17:51:29 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+17:51:29 [INFO] Listening websockets on localhost/127.0.0.1:8082
+17:51:29 [INFO] Server bans.txt changed, it will be reloaded automatically
+17:51:29 [INFO] Reload complete
+17:51:29 [INFO] Listening on /127.11.0.1:38711
+18:00:33 [SEVERE] Exception in thread "main" 
+18:00:33 [SEVERE] java.io.IOException: Input/output error
+18:00:40 [INFO] Enabled BungeeCord version unknown
+18:00:41 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+18:00:41 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+18:00:41 [INFO] Listening websockets on localhost/127.0.0.1:8082
+18:00:42 [INFO] Server bans.txt changed, it will be reloaded automatically
+18:00:42 [INFO] Reload complete
+18:00:42 [INFO] Listening on /127.11.0.1:41405
+18:02:30 [SEVERE] Exception in thread "main" 
+18:02:37 [INFO] Enabled BungeeCord version unknown
+18:02:39 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+18:02:39 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+18:02:39 [INFO] Listening websockets on localhost/127.0.0.1:8082
+18:02:39 [INFO] Server bans.txt changed, it will be reloaded automatically
+18:02:39 [INFO] Reload complete
+18:02:39 [INFO] Listening on /127.11.0.1:44907
+20:09:10 [INFO] Enabled BungeeCord version unknown
+20:09:11 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+20:09:11 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+20:09:11 [INFO] Listening websockets on localhost/127.0.0.1:8082
+20:09:12 [INFO] Server bans.txt changed, it will be reloaded automatically
+20:09:12 [INFO] Reload complete
+20:09:12 [INFO] Listening on /127.11.0.1:32869
+01:08:35 [INFO] Enabled BungeeCord version unknown
+01:08:36 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:08:36 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:08:37 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:08:37 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:08:37 [INFO] Reload complete
+01:08:37 [INFO] Listening on /127.11.0.1:34241
+07:24:14 [INFO] Enabled BungeeCord version unknown
+07:24:15 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+07:24:15 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+07:24:15 [INFO] Listening websockets on localhost/127.0.0.1:8082
+07:24:16 [INFO] Server bans.txt changed, it will be reloaded automatically
+07:24:16 [INFO] Reload complete
+07:24:16 [INFO] Listening on /127.11.0.1:43965
+14:17:16 [INFO] Enabled BungeeCord version unknown
+14:17:17 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+14:17:17 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+14:17:17 [INFO] Listening websockets on localhost/127.0.0.1:8082
+14:17:18 [INFO] Listening on /127.11.0.1:46287
+14:17:18 [INFO] Server bans.txt changed, it will be reloaded automatically
+14:17:18 [INFO] Reload complete
+18:31:07 [INFO] Enabled BungeeCord version unknown
+18:31:09 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+18:31:09 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+18:31:09 [INFO] Listening websockets on localhost/127.0.0.1:8082
+18:31:10 [INFO] Server bans.txt changed, it will be reloaded automatically
+18:31:10 [INFO] Listening on /127.11.0.1:44679
+18:31:10 [INFO] Reload complete
+12:58:29 [INFO] Enabled BungeeCord version unknown
+12:58:31 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+12:58:31 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+12:58:31 [INFO] Listening websockets on localhost/127.0.0.1:8082
+12:58:32 [INFO] Server bans.txt changed, it will be reloaded automatically
+12:58:32 [INFO] Reload complete
+12:58:32 [INFO] Listening on /127.11.0.1:39893
+15:44:33 [INFO] Enabled BungeeCord version unknown
+15:44:35 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+15:44:35 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+15:44:36 [INFO] Listening websockets on localhost/127.0.0.1:8082
+15:44:37 [INFO] Server bans.txt changed, it will be reloaded automatically
+15:44:37 [INFO] Reload complete
+15:44:37 [INFO] Listening on /127.11.0.1:42945
+18:51:34 [INFO] Enabled BungeeCord version unknown
+18:51:35 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+18:51:35 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+18:51:36 [INFO] Listening websockets on localhost/127.0.0.1:8082
+18:51:37 [INFO] Server bans.txt changed, it will be reloaded automatically
+18:51:37 [INFO] Reload complete
+18:51:37 [INFO] Listening on /127.11.0.1:44761
+22:43:58 [INFO] Enabled BungeeCord version unknown
+22:43:59 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+22:43:59 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+22:43:59 [INFO] Listening websockets on localhost/127.0.0.1:8082
+22:44:00 [INFO] Server bans.txt changed, it will be reloaded automatically
+22:44:00 [INFO] Reload complete
+22:44:00 [INFO] Listening on /127.11.0.1:36681
+01:36:01 [INFO] Enabled BungeeCord version unknown
+01:36:03 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:36:03 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:36:04 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:36:05 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:36:05 [INFO] Reload complete
+01:36:05 [INFO] Listening on /127.11.0.1:33583
+03:35:49 [INFO] Enabled BungeeCord version unknown
+03:35:50 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+03:35:50 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+03:35:50 [INFO] Listening websockets on localhost/127.0.0.1:8082
+03:35:51 [INFO] Server bans.txt changed, it will be reloaded automatically
+03:35:51 [INFO] Reload complete
+03:35:51 [INFO] Listening on /127.11.0.1:34001
+01:11:31 [INFO] Enabled BungeeCord version unknown
+01:11:32 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+01:11:32 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+01:11:32 [INFO] Listening websockets on localhost/127.0.0.1:8082
+01:11:33 [INFO] Server bans.txt changed, it will be reloaded automatically
+01:11:33 [INFO] Reload complete
+01:11:33 [INFO] Listening on /127.11.0.1:37997
+02:17:34 [SEVERE] Exception in thread "main" 
+02:17:34 [SEVERE] java.io.IOException: Input/output error
+02:17:34 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+02:17:34 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+02:17:34 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+02:17:34 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+02:17:34 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+02:17:34 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+02:17:34 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+02:17:34 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2038)
+02:17:34 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2242)
+02:17:34 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2162)
+02:17:34 [SEVERE] 	at net.md_5.bungee.BungeeCord.main(BungeeCord.java:231)
+02:17:46 [INFO] Enabled BungeeCord version unknown
+02:17:48 [INFO] Enabled plugin EaglerSkins version 1.0.0 by LAX1DUDE
+02:17:48 [INFO] Enabled plugin EaglerVoice version 1.0.0 by ayunami2000
+02:17:48 [INFO] Listening websockets on localhost/127.0.0.1:8082
+02:17:49 [INFO] Server bans.txt changed, it will be reloaded automatically
+02:17:49 [INFO] Listening on /127.11.0.1:39459
+02:17:49 [INFO] Reload complete
+02:18:11 [SEVERE] Exception in thread "main" 
+02:18:11 [SEVERE] java.io.IOException: Input/output error
+02:18:11 [SEVERE] 	at java.io.FileInputStream.read0(Native Method)
+02:18:11 [SEVERE] 	at java.io.FileInputStream.read(FileInputStream.java:207)
+02:18:11 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+02:18:11 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+02:18:11 [SEVERE] 	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+02:18:11 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+02:18:11 [SEVERE] 	at jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+02:18:11 [SEVERE] 	at jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2038)
+02:18:11 [SEVERE] 	at jline.console.ConsoleReader.readLine(ConsoleReader.java:2242)
